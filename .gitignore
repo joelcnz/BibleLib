@@ -1,0 +1,14 @@
+_notes.txt
+.dub
+.DS_Store
+*.lst
+*.txt
+*.html
+esv.xml
+BGate
+arsd
+bin
+other
+obj
+dub.userprefs
+z.txt

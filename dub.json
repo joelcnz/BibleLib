@@ -1,0 +1,7 @@
+{
+    "name": "biblelib",
+    "targetType": "library",
+    "description": "A Poorly Programmed Production. Presenting: Bible Lib!",
+    "copyright": "Joel",
+    "dependencies": {}
+}
