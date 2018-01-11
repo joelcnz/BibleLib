@@ -84,11 +84,12 @@ class Bible {
 		return ret;
 	}
 
-	//g_bible.expVers(args[0], "exp_" ~ args[0]);
-	void expVers(in string fileNameIn, in string fileNameOut) {
+	auto expVers(in string fileNameIn, in string fileNameOut) {
 		import std.file: readText;
 		import std.string: indexOf, split, stripRight;
 		import std.ascii: newline;
+
+		string result;
 
 		auto last_g_wrap = g_wrap;
 		g_wrap = false;
@@ -97,8 +98,7 @@ class Bible {
 		string text;
 		auto lines = readText(fileNameIn).split(newline);
 		if (! lines.length) {
-			writeln("Empty file!");
-			return;
+			return "Empty file!";
 		}
 		foreach(i, ref line; lines) {
 			string eline;
@@ -117,9 +117,11 @@ class Bible {
 			if (i != lines.length - 1)
 				text ~= newline;
 		}
+		result = text;
 
 		File(fileNameOut, "w").write(text);
-		writeln(text);
+
+		return result;
 	}
 
 	int bookNumberFromTitle(string bookTitle, bool feedBack = true) {

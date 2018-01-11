@@ -397,7 +397,9 @@ enum WordSearchType {wholeWords, wordParts};
 	
 string wordSearch(string[] words, WordSearchType wordSearchType) {
 	import std.string, std.algorithm;
-	string result;
+	import std.conv: to;
+
+	string result = "Type: " ~ wordSearchType.to!string ~ ", Search: " ~ words.join(" ") ~ "\n";
 	int count;
 	// fix any tall popies
 	foreach(ref word; words)
@@ -422,9 +424,9 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 						with(WordSearchType) // for the case's
 							final switch(wordSearchType) {
 								case wholeWords:
-									bool noLeftLetter = (p == 0 || ! lowercase.canFind(ver[p - 1])); //ver[p - 1].inPattern(lowercase));
+									bool noLeftLetter = (p == 0 || ! lowercase.canFind(ver[p - 1]));
 									bool noRightLetter = (p + word.length == ver.length ||
-										(p + word.length < ver.length && ! lowercase.canFind(ver[p + word.length]))); //ver[p + word.length].inPattern(lowercase)));
+										(p + word.length < ver.length && ! lowercase.canFind(ver[p + word.length])));
 									
 									if (noLeftLetter && noRightLetter) {
 										//doit = true;
@@ -439,8 +441,8 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 					if (doit) {
 						count += 1;
 						//mixin(trace("word"));
-						writeln(format("%s) %s %s:%s -> %s\n",
-								 	   count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse));
+						result ~= format("%s) %s %s:%s -> %s\n",
+								 	   count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
 						g_forChapter ~= format("%s %s", book.m_bookTitle, chapter.m_chapterTitle);
 					}
 				}  // if canFindWords
@@ -450,10 +452,10 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 	return result ~ format("Hits: %s\n", count);
 }
 
-//string phraseSearch(string phrase) {
-void phraseSearch(string phrase) {
+string phraseSearch(string phrase) {
 	import std.string, std.algorithm;
-	//string result;
+	
+	string result;
 	int count;
 	g_forChapter.length = 0;
 	foreach(bi, book; g_bible.m_books) {
@@ -462,16 +464,16 @@ void phraseSearch(string phrase) {
 				auto ver = verse.verse.toLower;
 				if (ver.canFind(phrase.toLower)) {
 					count += 1;
-					//result ~= format("%s) %s %s:%s -> %s\n",
-					//				 count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
-					writeln(format("%s) %s %s:%s -> %s",
-						count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse));
+					result ~= format("%s) %s %s:%s -> %s\n",
+						count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
 					g_forChapter ~= format("%s %s", book.m_bookTitle, chapter.m_chapterTitle);
 				}
 			}
 		}
 	}
-	writeln(format("Phrase: '%s'\nHits: %s\n", phrase, count));
+	result ~= format("Phrase: '%s'\nHits: %s\n", phrase, count);
+
+	return result;
 }
 
 string getBibleText() {
