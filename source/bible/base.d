@@ -40,7 +40,7 @@ Document g_document;
 Bible g_bible;
 Info g_info;
 bool g_wrap = false;
-int g_wrapWidth = 70;
+int g_wrapWidth = 35;
 
 dchar[] g_word;
 string[] g_forChapter;
@@ -139,6 +139,7 @@ size_t segs(size_t st, string data) {
 	return ed - st;
 }
 
+/+
 string convertReferencesFromNotesFile(string raw) {
 	// collect tags and book titles
 	auto r = regex(`[|][_]\w+`, "g");
@@ -162,8 +163,7 @@ string convertReferencesFromNotesFile(string raw) {
 		else
 			seg.length--;
 	}
-	
-	
+
 	string goTogether() {
 		string result;
 
@@ -188,7 +188,6 @@ string convertReferencesFromNotesFile(string raw) {
 		
 		return result;
 	}
-	
 
 //	writeln(result);
 
@@ -198,6 +197,7 @@ string convertReferencesFromNotesFile(string raw) {
 	//return result;
 	return goTogether();
 }
++/	
 
 void loadXMLFile() {
 	writeln( "Loading xml file.." );
@@ -240,6 +240,7 @@ void parseXMLDocument() {
     
 }
 
+/+
 void convertReferencesFromFile() {
 	File file = File("glean.txt", "w"); //#clear the text file
 	file.close();
@@ -317,18 +318,18 @@ string equalDistanceLetterSequence(string str, in size_t bookNumber, in size_t s
 	//                        1  1  1 1 1 1
 	//0 1 2  3  4 5 6  7  8 9 0  1  2 3 4 5
 	//a b c [1] d e f [2] g h i [3] k l m n
-	/+
+	/*
 		1. find the first of str
 		2. find the second of str counting the spaces
 		3. check if it works
 		4. if it does not, the look for the next second letter (repeat from 2)
 		5. print the stuff
-	+/
+	*/
 	
-	/+
+	/*
 		1. go from the start
 		2. check each text + len, with str[l]
-	+/
+	*/
 	writeln("Try and find code (can be slow here, you can use Ctrl +C, if you don't want to wait)");
 	string strOrg;
 	string result;
@@ -392,6 +393,7 @@ string equalDistanceLetterSequence(string str, in size_t bookNumber, in size_t s
 	
 	return "";
 }
++/
 
 enum WordSearchType {wholeWords, wordParts};
 	
@@ -399,18 +401,34 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 	import std.string, std.algorithm;
 	import std.conv: to;
 
-	string result = "Type: " ~ wordSearchType.to!string ~ ", Search: " ~ words.join(" ") ~ "\n";
+	string info = "Type: " ~ wordSearchType.to!string ~ ", Search: " ~ words.join(" ") ~ "\n";
+	string hits;
+	string result;
 	int count;
-	// fix any tall popies
-	foreach(ref word; words)
-		word = word.toLower;
+	bool caseSensitive = false;
+
+	if (words.length && words[0] == "%caseSensitive")
+		caseSensitive = true;
+	
+	if (caseSensitive)
+		words = words[1 .. $];
+	else
+		// fix any tall popies
+		foreach(ref word; words)
+			word = word.toLower;
 
 	g_forChapter.length = 0;
 	foreach(i, book; g_bible.m_books) { // go through books
 		foreach(i2, chapter; book.m_chapters) { // go through each chapter of the books
 			foreach(i3, verse; chapter.m_verses) { // go through each verse of the chapters
 				bool canFindWords = true;
-				auto ver = verse.verse.toLower;
+				string ver;
+
+				if (caseSensitive)
+					ver = verse.verse;
+				else
+					ver = verse.verse.toLower;
+
 				foreach(word; words) { // check to see that all the words are in the verse
 					if (! ver.canFind(word)) {
 						canFindWords = false;
@@ -449,20 +467,32 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 			}
 		}
 	}
-	return result ~ format("Hits: %s\n", count);
+	hits = format("Hits: %s\n", count);
+
+	return info ~ hits ~ result ~ info ~ hits;
 }
 
 string phraseSearch(string phrase) {
 	import std.string, std.algorithm;
 	
+	string caseSen = "%caseSensitive ";
+	bool caseSensitive = false;
+	if (phrase.startsWith(caseSen)) {
+		phrase = phrase[caseSen.length .. $];
+		caseSensitive = true;
+	}
+
 	string result;
 	int count;
 	g_forChapter.length = 0;
 	foreach(bi, book; g_bible.m_books) {
 		foreach(ci, chapter; book.m_chapters) {
 			foreach(di, verse; chapter.m_verses) {
-				auto ver = verse.verse.toLower;
-				if (ver.canFind(phrase.toLower)) {
+				auto ver = verse.verse;
+				if (! caseSensitive)
+					ver = ver.toLower;
+				if ((caseSensitive && ver.canFind(phrase)) ||
+					(! caseSensitive && ver.canFind(phrase.toLower))) {
 					count += 1;
 					result ~= format("%s) %s %s:%s -> %s\n",
 						count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
@@ -471,7 +501,8 @@ string phraseSearch(string phrase) {
 			}
 		}
 	}
-	result ~= format("Phrase: '%s'\nHits: %s\n", phrase, count);
+	auto info = format("Phrase: '%s'\nHits: %s\n", phrase, count);
+	result = info ~ '\n' ~ result ~ info;
 
 	return result;
 }

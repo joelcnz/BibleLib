@@ -53,11 +53,6 @@ class Bible {
 
 	bool retValue() { return m_retValue; } //#this would be good to use
 
-	string headInfo() const {
-		import std.string: format;
-		return "";
-	}
-
 	// -1 will be -2 and -2 -3
 	int parseNumber(in int max, int number) { //pure {
 		if (number < 0) {
@@ -84,10 +79,9 @@ class Bible {
 		return ret;
 	}
 
-	auto expVers(in string fileNameIn, in string fileNameOut) {
+	auto expVers(in string fileNameIn, in string fileNameOut, in string txtIn = "") {
 		import std.file: readText;
 		import std.string: indexOf, split, stripRight;
-		import std.ascii: newline;
 
 		string result;
 
@@ -96,7 +90,11 @@ class Bible {
 		scope(exit)
 			g_wrap = last_g_wrap;
 		string text;
-		auto lines = readText(fileNameIn).split(newline);
+		string[] lines;
+		if (txtIn == "")
+			lines = readText(fileNameIn).split("\n");
+		else
+			lines = txtIn.split("\n");
 		if (! lines.length) {
 			return "Empty file!";
 		}
@@ -107,19 +105,18 @@ class Bible {
 				eline = line.stripRight;
 			else
 				eline = line[0 .. cast(size_t)tend].stripRight;
-			writeln(">", eline.split, "<");
 			string verses = argReference(eline.split, /* feed back */ true);
-			writeln(">", verses, "<");
 			if (verses != "")
 				line = "|_" ~ line ~ " <> " ~ verses[0 .. (eline == "" ? 0 : $ - 1)];
 
 			text ~= line;
 			if (i != lines.length - 1)
-				text ~= newline;
+				text ~= "\n";
 		}
 		result = text;
 
-		File(fileNameOut, "w").write(text);
+		if (txtIn == "")
+			File(fileNameOut, "w").write(text);
 
 		return result;
 	}
