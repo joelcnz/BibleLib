@@ -1,2 +1,16 @@
-.DS_Store
+'.DS_Store
+.dub
+*.lst
+*.html
+esv.html
+dub.selections.json
+dub.userprefs
+bin
+other
+obj
+cf.*
+esv.xml
+z.txt
 *.o
+*.a
+
