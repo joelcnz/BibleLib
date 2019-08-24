@@ -1,4 +1,6 @@
-'.DS_Store
+.DS_Store
+source/.DS_Store
+source/bible/.DS_Store
 .dub
 *.lst
 *.html
