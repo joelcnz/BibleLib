@@ -1,0 +1,110 @@
+Things (like asking how do you do this?):
+
+Google Chrome failed to view the downloaded tango website properly. But Firefox was able to. [ ]
+
+The explore left panel doesn't keep the same as the main area. [ ]
+
+Free downloand manager has Torrent support.
+
+Keep getting broken pictures or some thing with Chrome and Firefox (fire fox doesn't show any thing). [ ]
+
+Right click command prompt icon to ran as adminstrator.
+
+Changed 'demaljin.misc' to 'demaljin.stuff' to get my program that has a module 'misc' to work!? [ ]
+
+Calling delegates you have to have the brackets (eg pnt(); not pnt;)
+
+How do you do use foreach for two dimentional loops? [ ]
+
+Computer normaly goes to sleep in 30 minutes of inactivity.
+
+My Opera installation files say 'file corrupt' - I had a look around and found this, but alas it did not work, and what did it do? [./] - Restarted the computer. Don'lt know about the delete thing.
+"reg delete HKLM\SOFTWARE\Microsoft\SQMClient\Windows\DisabledSessions /va /f"
+
+I think Google Chrome didn't restart when installing Cooliris. I don't think Internet explorer did either. I know that Firefox did.
+
+How do you unstick similer folders on the task bar? [ ]
+
+How do you change the repeat rate of the keyboard? [./] - Did a search in the control panel.
+
+Win 7 (as precludes)
+
+---
+
+How do you search facebook without just searching names?
+
+H.264 video format.
+
+Second RAM card is really slow or some thing is slow when it goes into the next Gig of ram.
+
+Don't think OS boots up properly. An 'init' program wanting another disk or some thing, and closing secrity thing. [ ]
+
+Can't login to Pal talk. [ ]
+
+Internet is rubbish for Thunderbird D news groups. [ ]
+
+A thing come up with drive and winlogin problem.[ ]
+
+Download speeds slow! [. ] - might get a better Internet setup.
+
+How do I get rid of my Birthday infomation on facebook, facebook interface is hard to face! [ ]
+
+My computer seems to work as if it's only got 1GB of RAM. [ ]
+
+Copying from Bible Gate to Open Office Text. I get twice as many lines (empty lines). [ ] - One way is to not use copy and paste,  just open it. But that is slow!
+
+Just booting up, got an error: javascript or some thing, saying expected '('. [ ]
+
+Thunderbird not working very well, mainly the news groups. [ ]
+
+What's Ubuntu good for?
+Booting and shutting down fast.
+Another OS to try if Windows fails to do some thing (like uploading photos to facebook).
+
+Black USB isn't working properly. [ ]
+
+Booting up in 320x240x8 using Duel view to fix with CRT monitor to change the res + colour depth, but if I change it to single screen it reverts to the low res, low colour depth. [ ] - Don't use the low res etc. in programming.
+
+Zart crashed, but didn't say exit failure. [ ]
+
+How do I work with variables in D? [ ]
+
+Maybe not be able to upload photos on flickr. [ ]
+
+Can't make and upload an album on facebook. [ ] - did in Ubuntu.
+
+Passwords don't get updated on web site logins. I think both Chrome and FireFox. [ ]
+
+Google Wave doesn't move stuff to another folder properly, (not listing the new folder). [ ] Wave is young.
+
+Format the rest of Jet. [ ] Then I can back up my stuff for Win 7 if I get it.
+
+Stick for my car boot door. [ ]
+
+Can't userly safely remove Hawlk. [ ]
+
+I compiled Letters with jake and -L/subsystem:windows:4 but I wont run from a short cut!? [ ]
+
+Problem on the internet about having to edit the passwords that have been changed, each time I want to log in. [ ]
+
+I want sleep to work. Maybe it doesn't do much. Though I think it stopped the HDD and had blinking lights. [ ] I think hiberate works now.
+
+Pictures in windows help don't come up. Like with windows help. [ ]
+
+My Bible programs search needs to be case insensitive(sp).
+
+Have trouble with sleep and hybernate. (don't even use them) [ ]
+
+Thing coming up when I click folders, saying to insert of last disc for compression, after plugging my black flash drive. [. ] Ignore it till your finished.
+How do I burn a CD that will work properly on Timothy's laptop? Other CD's work. [ ]
+
+sd.exe in command prompt doesn't display all the d files [ ]
+
+How do  you install dnet? (is there more than one D library things called dnet) [ ]
+
+-----------------------------------
+
+How do you flip in Blender? [./] - Use mirror, (dummy, not transform).
+
+Thunder Bird isn't letting me show images. [./] - it shows the option when there are images to show.
+

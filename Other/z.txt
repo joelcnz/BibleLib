@@ -1,0 +1,6030 @@
+
+C:\jpro\dpro2\BibleGate>cd bin\Debug 
+
+C:\jpro\dpro2\BibleGate\bin\Debug>call biblegate          
+Loading xml file..
+Processing xml file..
+FREE_FORM
+convertBatchRefs
+result: ["*>--Points"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["###>--to"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["name>"]
+not whole books yet
+result: ["event>"]
+not whole books yet
+result: ["note>"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["-------------------------------------------------"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["30Aug", "2013"]
+No book match for '30Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Putaruru"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["RECORD:", "30", "2013"]
+No book match for 'RECORD:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["34:00-Start"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["36:00-Where"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["(Missed"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["29Aug", "2013"]
+No book match for '29Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "4", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["27Aug", "2013"]
+No book match for '27Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lionel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Pro", "4", "20", "-", "22"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rev", "22", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["For"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["John", "4"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["God's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Fire"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jesus", "12"]
+No book match for 'Jesus'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Peter,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jesus"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We", "1", "10"]
+No book match for 'We'
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["26Aug", "2013"]
+No book match for '26Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["*>lost"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Books,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["RECORD:", "26", "2013"]
+No book match for 'RECORD:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["21:21-Chuck"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Fulcum:", "40", "66"]
+No book match for 'Fulcum:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["40-48--The"]
+not whole books yet
+result: ["49-57--The"]
+not whole books yet
+result: ["56-66--The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psalm", "22"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Zec", "12", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Isa", "52", "12", "-", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Isa", "53", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["John", "12", "38", "-", "40"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "9", "26"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psal", "69"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Matt", "27", "30", "-", "31"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Subsasution(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Tim", "4", "20"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Pet", "2", "24"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Johh", "10", "28", "-", "29"]
+No book match for 'Johh'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "8", "28", "-", "1"]
+get verse range: An error has happen!
+Book: 44, chapter: 7, verse: 27, book2: 44, chapter2: 7, verse2: 0
+result: []
+I'm afraid that's quite out of the question!
+result: ["Spirital"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "5", "21"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luk", "23", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "19", "8", "-", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "8", "32", "-", "33"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["18specifactions(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Are"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Isa", "53", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Better"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Page", "35"]
+No book match for 'Page'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Each"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Syllables"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["When"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Upto", "36"]
+No book match for 'Upto'
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "3", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "3", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["25Aug", "2013"]
+No book match for '25Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Hotel", "79"]
+No book match for 'Hotel'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Too"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gospel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Notices"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["A"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Thing"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Talk"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "3", "11", "-", "26"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "4"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Chist"]
+not whole books yet
+result: ["Jesus"]
+not whole books yet
+result: ["The"]
+not whole books yet
+result: ["Jesus"]
+not whole books yet
+result: ["Jesus"]
+not whole books yet
+result: ["The"]
+not whole books yet
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Open"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "3", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Col", "1", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Song"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Heb", "12", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["24Aug", "2013"]
+No book match for '24Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "2", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "2", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["23Aug", "2013"]
+No book match for '23Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bbile"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "1", "15", "-", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "1", "20"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["22Aug", "2013"]
+No book match for '22Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Drug"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["You've"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Drugs"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "13", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "13", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "13", "14", "-", "3"]
+get verse range: An error has happen!
+Book: 46, chapter: 12, verse: 13, book2: 46, chapter2: 12, verse2: 2
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["21Aug", "2013"]
+No book match for '21Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Geoff"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2corinthians", "10", "3", "-", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["acts", "2", "42"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["luke", "22", "7", "-", "23"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["morning"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gregg's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Milk"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Every"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["20Aug", "2013"]
+No book match for '20Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lion"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["To"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Two"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["When"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["*>(JBible", "121"]
+No book match for '*>(JBible'
+result: []
+I'm afraid that's quite out of the question!
+result: ["29Jul", "2013"]
+No book match for '29Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lionel's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lionel", "12"]
+No book match for 'Lionel'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jer", "29", "10", "-", "14"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psal", "121", "1", "-", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luk", "24", "35", "-", "36"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luke", "10", "38", "-", "42"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "20", "19", "-", "22"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["When"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lets"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Pet", "5", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luk", "23", "40", "-", "43"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Calander"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["event>", "30"]
+No book match for 'event>'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Morris"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["This"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["19Aug", "2013"]
+No book match for '19Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["name>"]
+not whole books yet
+result: ["Andrew"]
+not whole books yet
+result: ["Jerard(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["A", "2"]
+No book match for 'A2'
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["8Aug", "2013"]
+No book match for '8Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "9", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "9", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["7Aug", "2013"]
+No book match for '7Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["No"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Kobo"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["When"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["6Aug", "2013"]
+No book match for '6Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lion"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Prepare"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Maybe", "14"]
+No book match for 'Maybe'
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Normal"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Live"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "15", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "15", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "8", "28"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Isa", "55", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luk", "9", "46", "-", "48"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Annie(sp),"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "8", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "8", "14"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Geoff"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Micah", "6", "8"]
+
+
+result: ["2chronicles", "7", "14"]
+
+
+result: ["Lamentations", "3", "4", "-", "30"]
+
+
+result: ["Lamentations", "3", "49", "-", "62"]
+
+
+result: ["prov", "3", "13"]
+
+
+result: ["prov", "4", "23"]
+
+
+result: ["prov", "11", "28"]
+
+
+result: ["prov", "22", "3"]
+
+
+result: ["prov", "16", "7"]
+
+
+result: ["daniel", "1", "1", "-", "21"]
+
+
+result: ["acts", "26", "22"]
+
+
+result: ["matt", "6", "33"]
+
+
+result: ["joshua", "1", "6"]
+
+
+result: ["joshua", "1", "7", "-", "8"]
+
+
+result: ["Gen", "50", "20"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["From"]
+not whole books yet
+result: ["Psalm", "139", "1"]
+
+
+result: ["Psalm", "139", "2"]
+
+
+result: ["Psalm", "139", "3"]
+
+
+result: ["Matt", "10", "29", "-", "31"]
+
+
+result: ["Matt", "17", "28"]
+
+
+result: ["Act", "17", "26"]
+
+
+result: ["Psal", "139", "14"]
+
+
+result: ["Psal", "71", "6"]
+
+
+result: ["Gen", "1", "27"]
+
+
+result: ["Jer", "1", "4", "-", "5"]
+
+
+result: ["Eph", "1", "11", "-", "12"]
+
+
+result: ["Psalm", "139", "15", "-", "16"]
+
+
+result: ["Act", "17", "26"]
+
+
+result: ["Psalm", "139", "14"]
+
+
+result: ["Psalm", "139", "13"]
+
+
+result: ["Psal", "76", "6"]
+
+
+result: ["John", "8", "41", "-", "44"]
+
+
+result: ["1Joh", "4", "16"]
+
+
+result: ["1Joh", "3", "1"]
+
+
+result: ["Matt", "7", "11"]
+
+
+result: ["Matt", "5", "48"]
+
+
+result: ["Jam", "1", "17"]
+
+
+result: ["Jer", "29", "11"]
+
+
+result: ["Matt", "6", "31", "-", "33"]
+
+
+result: ["Jer", "31", "3"]
+
+
+result: ["Psal", "139", "17", "-", "18"]
+
+
+result: ["Zeph", "3", "17"]
+
+
+result: ["Jere", "32", "40"]
+
+
+result: ["Exo", "19", "5"]
+
+
+result: ["Jer", "32", "41"]
+
+
+result: ["Jer", "33", "3"]
+
+
+result: ["Deut", "4", "29"]
+
+
+result: ["Psa", "37", "4"]
+
+
+result: ["Phili", "2", "13"]
+
+
+result: ["Eph", "3", "20"]
+
+
+result: ["2Thess", "2", "16", "-", "17"]
+
+
+result: ["2Cor", "1", "3", "-", "4"]
+
+
+result: ["Psal", "34", "18"]
+
+
+result: ["Isa", "40", "11"]
+
+
+result: ["Rev", "21", "3", "-", "4"]
+
+
+result: ["Joh", "17", "23"]
+
+
+result: ["Joh", "17", "26"]
+
+
+result: ["Heb", "1", "3"]
+
+
+result: ["Rom", "8", "31"]
+
+
+result: ["2Cor", "5", "18", "-", "19"]
+
+
+result: ["1Joh", "4", "10"]
+
+
+result: ["Rom", "8", "31", "-", "32"]
+
+
+result: ["Rom", "8", "38", "-", "39"]
+
+
+result: ["1Joh", "2", "23"]
+
+
+result: ["Luk", "15", "7"]
+
+
+result: ["Eph", "3", "14", "-", "15"]
+
+
+result: ["Joh", "1", "12", "-", "13"]
+
+
+result: ["Luk", "15", "11", "-", "32"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["5Aug", "2013"]
+No book match for '5Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["RECORD>", "5", "2013"]
+No book match for 'RECORD>'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Guy"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["3:00Are"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["From"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Do"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["15:30You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["DVD"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["note>"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["RECORD>", "5", "2013"]
+No book match for 'RECORD>'
+result: []
+I'm afraid that's quite out of the question!
+result: ["2;45Background"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["4:15After"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Title"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jer", "6", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Don't"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["*>"]
+not whole books yet
+result: ["9:50Big"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Holy"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["*>Bright"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["15:30Ezra"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["22:14on"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Was"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Don't"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["4Aug", "2013"]
+No book match for '4Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Hotel", "79"]
+No book match for 'Hotel'
+result: []
+I'm afraid that's quite out of the question!
+result: ["event>", "15", "2013"]
+No book match for 'event>'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dad"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Met"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Coming"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Our"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Taking"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Stickler"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Teat"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Full"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["joy"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["My"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Heaven,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Get"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["If"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["(Recorded"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Speaker"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["79is"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["It's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Heb", "13", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Satan,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Turn"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["3Aug", "2013"]
+No book match for '3Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "7", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "7", "5"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "7", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "7", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Aug", "2013"]
+No book match for '2Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "6", "4", "-", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Aug", "2013"]
+No book match for '1Aug'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "5", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "5", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "5", "5"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "5", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "5", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "5", "20"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["31Jul", "2013"]
+No book match for '31Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "4", "4"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "4", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "4", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "4", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "4", "18"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["30Jul", "2013"]
+No book match for '30Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lion"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Walked"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Chr", "7", "14"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Your"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ruth", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gleaning"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Favour"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Morris"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Pray"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Word"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["My", "4"]
+No book match for 'My'
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "2", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "2", "14", "-", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "3", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "3", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "3", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["29Jul", "2013"]
+No book match for '29Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jeremy's", "20"]
+No book match for 'Jeremy's'
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "1", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "1", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "1", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "1", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "1", "19"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "1", "24"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["28Jul", "2013"]
+No book match for '28Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Hotel", "79"]
+No book match for 'Hotel'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Steven(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jarard(sp)", "3"]
+No book match for 'Jarard(sp)'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Some"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dad"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["*>I", "70", "8"]
+No book match for '*>I'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jarard(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Kingy(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Event>"]
+not whole books yet
+result: ["6th", "13"]
+No book match for '6th'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Truth"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I've", "2011"]
+No book match for 'I've'
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["History"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "3", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["34years"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["About", "80"]
+No book match for 'About'
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["A"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Leave"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["'We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Phil", "2", "1", "-", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["It's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "17", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "17", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "17", "19"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["26Jul", "2013"]
+No book match for '26Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "28"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "31"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "33"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "39"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "46"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "48"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "58"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "51"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["24Jul", "2013"]
+No book match for '24Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "15", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["23Jul", "2013"]
+No book match for '23Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "13", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Mind"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "25"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "26"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "29"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "33"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "35"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "40"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["22Jul", "2013"]
+No book match for '22Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "12", "24"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["21Jul", "2013"]
+No book match for '21Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dad"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "1", "1", "-", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "1", "23", "-", "24"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "1", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["It's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Saved"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gal", "1", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["John", "1", "12"]
+
+
+result: ["Eph", "2", "8", "-", "9"]
+
+
+result: ["Gal", "2", "17", "-", "21"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Roger", "3"]
+No book match for 'Roger'
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blessings"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Have"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Got"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Woneta(sp)", "23"]
+No book match for 'Woneta(sp)'
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Got"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blessings"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Safe"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Mata"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Annalee(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Answered"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Message"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "1", "27"]
+
+
+result: ["2Cor", "12", "10"]
+
+
+result: ["Matt", "10", "39"]
+
+
+result: ["2Cor", "13", "4"]
+
+
+result: ["Heb", "2", "14"]
+
+
+result: ["1Cor", "1", "29"]
+
+
+result: ["2Cor", "4", "7"]
+
+
+result: ["2Chro", "26", "7"]
+
+
+result: ["2Chro", "26", "14", "-", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Be"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["18Jul", "2013"]
+No book match for '18Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "8", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["17Jul", "2013"]
+No book match for '17Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "7", "7", "-", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "7", "29", "-", "31"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["16Jul", "2013"]
+No book match for '16Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lion"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I", "37", "5"]
+No book match for 'I37'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lion"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "10", "5", "-", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Mike,", "69"]
+No book match for 'Mike,'
+result: []
+I'm afraid that's quite out of the question!
+result: ["There"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ask"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["When"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Don't"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Hang"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["@bishopjakes"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Make"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Things"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Recieving"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Test"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Scott"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["({What"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["name>", "15"]
+No book match for 'name>'
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["A"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["14Jul", "2013"]
+No book match for '14Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: [">Dan", "6", "10", "-", "1"]
+No book match for '>Dan'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "24", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Prov", "18", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Tim", "4", "18"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jam", "5", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Those"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "6", "4", "-", "5"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Tim", "3", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Pet", "4", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Pet", "4", "14"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Unbeliver(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "8", "28"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["All"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "6", "20"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Daniel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psa", "91", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Heb", "1", "14"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Phi", "4", "6", "-", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Phi", "1", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Pro", "16", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["###>"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Geof"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blessings"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Soul", "3"]
+No book match for 'Soul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Daniel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Good"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Good"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Answered"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Zip."]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Camp:", "2", "4", "-", "5", "6"]
+No book match for 'Camp:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Sermon"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "9", "23"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "10", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "10", "19"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "1", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Daniel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "1", "20"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dan", "1", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jos", "1", "6", "-", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["11Jul", "2013"]
+No book match for '11Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "6", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "6", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "6", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "6", "19"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["10Jul", "2013"]
+No book match for '10Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["*>Terrican", "2"]
+No book match for '*>Terrican'
+result: []
+I'm afraid that's quite out of the question!
+result: ["F:\\Media\\zExtra\\3DPhotos"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["F:\\Media\\zExtra\\A75"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["F:\\Media\\zExtra\\A75\\August_05_photos"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["F:\\Media\\zExtra\\A75\\November_05"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["F:\\Media\\zExtra\\A75\\October_05_photos"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["F:\\Media\\zExtra\\A75\\September_05\\104CANON"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["F:\\Media\\zExtra\\A75\\September_05\\107CANON"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["F:\\Media\\zExtra\\DumpFromPassagePC\\Media"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["F:\\Media\\zExtra\\DumpFromPassagePC\\Media", "7943"]
+No book match for 'F:\Media\zExtra\DumpFromPassagePC\Media'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "5", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["9Jul", "2013"]
+No book match for '9Jul'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "4", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "4", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "4", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "4", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "4", "20"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["8July", "2013"]
+No book match for '8July'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "3", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "3", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "3", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "3", "19"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["7July", "2013"]
+No book match for '7July'
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["10:30am"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Be"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "2", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "2", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "2", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "2", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["6July", "2013"]
+No book match for '6July'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "1", "5"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "1", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "1", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "1", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "1", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "1", "19", "-", "21"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "1", "25"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "1", "27"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["3July", "2013"]
+No book match for '3July'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Midweek"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blessings"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["46years"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Anna"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["2July", "2013"]
+No book match for '2July'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lion"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Geof"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Tried"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Hebrews", "10", "25"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Pat"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["*>Pat"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lives"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["You've"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I'm"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Son"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Tokoroa"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Every"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Humble"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I've"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Building"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "16", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "16", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "16", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "16", "19"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Geof"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Humility(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["*>Come"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Any"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Tim", "2", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Be"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["7men"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["He"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Defending"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Pat", "7", "30"]
+No book match for 'Pat'
+result: []
+I'm afraid that's quite out of the question!
+result: ["1July", "2013"]
+No book match for '1July'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ron"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["RECORD:", "1", "2013"]
+No book match for 'RECORD:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Any"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Me"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "15", "30"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "15", "32"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dad"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["All"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["4:30-Repentance"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["If"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["How"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Our"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["If"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["30June", "2013"]
+No book match for '30June'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Combined"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Left"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Got"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Random"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jonah", "1", "14"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["If"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["75%of"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["18:15-Bruce"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["22:35-DVD"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rev", "2", "24"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Chuck"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Are"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Isa", "22", "19", "-", "24"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Isa", "9", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rev", "3", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rev", "3", "20"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["49:15--Comments"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Comments"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["All"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Knocking"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Every"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce:", "25"]
+No book match for 'Bruce:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["56:30--Gayle(sp),"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["26June", "2013"]
+No book match for '26June'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "15", "30"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "15", "32"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["26June", "2013"]
+No book match for '26June'
+result: ["iPhone"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["subway"]
+not whole books yet
+result: ["temple"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Start:", "10", "21"]
+No book match for 'Start:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Had"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "14", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "14", "5"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "14", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["24June", "2013"]
+No book match for '24June'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ron's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["RECORD:", "24", "2013"]
+No book match for 'RECORD:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Was", "7"]
+No book match for 'Was'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Repentance"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Despite"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["It's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["18:33-Start"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gold"]
+not whole books yet
+result: ["Mur"]
+not whole books yet
+result: ["Frankinsence(sp)."]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Isa", "41", "4"]
+
+
+result: ["Isa", "44", "6"]
+
+
+result: ["Isa", "48", "12"]
+
+
+result: ["Rev", "1", "11"]
+
+
+result: ["Rev", "1", "17", "-", "19"]
+
+
+result: ["Rev", "2", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rev", "2", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Reb", "2", "10", "-", "11"]
+No book match for 'Reb'
+result: []
+I'm afraid that's quite out of the question!
+result: ["54-68Niro", "10"]
+No book match for '54-68Niro'
+result: []
+I'm afraid that's quite out of the question!
+result: ["5Crowns"]
+not whole books yet
+result: ["Jam", "1", "12"]
+
+
+result: ["Rev", "2", "10"]
+
+
+result: ["2Tim", "4", "8"]
+
+
+result: ["1Pet", "5", "4"]
+
+
+result: ["1Cor", "9", "25"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["If"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["23June", "2013"]
+No book match for '23June'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gospel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Notices"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Peter's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["John"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Abundant"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "10", "10"]
+
+
+result: ["Joh", "10", "28"]
+
+
+result: ["2Cor", "9", "8"]
+
+
+result: ["Eph", "3", "20"]
+
+
+result: ["2Pet", "1", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Peter"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Christ"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Speakers"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Phil"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Translating"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["David", "42"]
+No book match for 'David'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Citizens"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Phil", "3", "18", "-", "21"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Acts", "16", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "16", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "16", "35", "-", "40"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "22", "22", "-", "29"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Heb", "11", "8", "-", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Heb", "11", "24", "-", "28"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Tent"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["City"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "7", "29", "-", "31"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Even"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["18June", "2013"]
+No book match for '18June'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Reading"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "13", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["10June", "2013"]
+No book match for '10June'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ron"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ron"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Posioned"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["9June", "2013"]
+No book match for '9June'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Hand"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["End:", "5", "15"]
+No book match for 'End:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blessings"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Geoff"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Isaccs(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Answered"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Message"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psal", "51"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["({Geoff"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psal", "51", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Pridefullness(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psal", "51", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Do"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Attitude(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Once"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Pray"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psal", "51", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psal", "51", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Putaruru"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Phone", "883", "8923"]
+No book match for 'Phone'
+result: ["Fax", "883", "8924"]
+No book match for 'Fax'
+result: []
+I'm afraid that's quite out of the question!
+result: ["putaruruchapel@xtra.co.nz"]
+not whole books yet
+result: ["86Kensington"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Wet"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Num", "13", "1", "-", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Num", "13", "27", "-", "33"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Josh", "14", "7", "-", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Pray"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Abby(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Young"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Pray"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Notices"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Read"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Alpha"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Children"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Howard"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Start:", "11", "2"]
+No book match for 'Start:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "7", "1", "-", "5"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Respect"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Left"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Put"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Old"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Is"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Negative"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Don't"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["End:", "11", "27"]
+No book match for 'End:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["More"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luk", "17", "11", "-", "19", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Matt", "14", "31"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["To"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Open"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Phil"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["As"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Howard"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["6Jun", "2013"]
+No book match for '6Jun'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ruth's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ruth"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dad"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["5June", "2013"]
+No book match for '5June'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "11", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "11", "22"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "11", "24"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "11", "25"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "11", "26", "-", "27"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "11", "34", "-", "35"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "12", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "12", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "12", "10"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2June", "2013"]
+No book match for '2June'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gospel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Notices"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ben"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lunch"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Matt", "13", "45", "-", "46"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["What"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1.He"]
+not whole books yet
+result: ["2.He"]
+not whole books yet
+result: ["3.He"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Peter"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "10", "11", "-", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["30May", "2013"]
+No book match for '30May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Geoff's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Take"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Girl"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Offered"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "10", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["29May", "2013"]
+No book match for '29May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "9", "25"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["27May", "2013"]
+No book match for '27May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joseph"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Be"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "12", "6", "-", "8", "9", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["10:30-gold"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["RECORD:", "27", "2013"]
+No book match for 'RECORD:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ministry,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Encourage,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Some"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["If"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Leaders"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["21:00-the"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ask"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Too"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["God"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Comments"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["41:00-Story"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce:"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["44:12-Dad"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jeff's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["While"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Couldn't"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Some"]
+not whole books yet
+result: ["Joh", "6", "44"]
+
+
+result: ["2Thess", "2", "13"]
+
+
+result: ["Act", "3", "19"]
+
+
+result: ["Luk", "10", "22"]
+
+
+result: ["Joh", "21", "6"]
+
+
+result: ["Joh", "21", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["26May", "2013"]
+No book match for '26May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Balmoral"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Max,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Warm,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Costs"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Old"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["What"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Our"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ecc", "12", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Matt", "26", "75"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luk", "15", "25"]
+
+
+result: ["Luk", "24", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Isa", "26", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Phi", "2", "5"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Pet", "4", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psalm", "103"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Eph", "2", "12", "-", "22"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "14", "1", "-", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "14", "27", "-", "28"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "16", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "20", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joh", "20", "15", "-", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Matt", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luk", "23", "39"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Matt", "27", "50", "-", "54"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Exo", "12", "5", "-", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Exo", "12", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Heb", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["24May", "2013"]
+No book match for '24May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Cecily's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Stephanie"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["23May", "2013"]
+No book match for '23May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grant"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["22May", "2013"]
+No book match for '22May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "8", "5"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "8", "14"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "8", "19"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["21May", "2013"]
+No book match for '21May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "7", "14"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "7", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "7", "18"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "7", "21"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "7", "22"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "7", "23"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "7", "24"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["20May", "2013"]
+No book match for '20May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "6", "6"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "6", "11", "-", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "6", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "6", "22"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["19May", "2013"]
+No book match for '19May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Calvary"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Notices"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Even(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Youth"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Sermon"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Not"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Three"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1."]
+not whole books yet
+result: ["Phil", "4", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2."]
+not whole books yet
+result: ["Rom", "8", "28"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["3."]
+not whole books yet
+result: ["James", "1", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["I'm"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["A"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Money"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Malachi", "3", "8", "-", "12"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "9", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Cor", "9", "6"]
+
+
+result: ["1Cor", "13", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["What's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luke", "6", "45"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Is"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luk", "19", "8"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["A"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I'll", "4"]
+No book match for 'I'll'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Luk", "18", "18", "-", "23"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psalm", "50", "7", "-", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Put"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["What"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["How"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["It's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["6:44am."]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "5", "3", "-", "4"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "5", "5"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "5", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["18May", "2013"]
+No book match for '18May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["8:27am."]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "4", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "4", "17"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["17May", "2013"]
+No book match for '17May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "3", "21"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "3", "31"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["16May", "2013"]
+No book match for '16May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["_REMEMBER_:"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["13May", "2013"]
+No book match for '13May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["7:46am"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "2", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "2", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["zRom", "2"]
+No book match for 'zRom'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "2", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "2", "21"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "2", "29"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["12May", "2013"]
+No book match for '12May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Calvery"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["*Mothers"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Talked"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["It's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Announcements"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Wed", "7"]
+No book match for 'Wed'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Womans"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Sermon"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "6", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["How"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Utter"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Scars"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["When"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Live"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "6", "1"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["({the"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Reconciling(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "13", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["To"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Elder"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["They"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["In"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Sewing"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["What"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Not"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Walk"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Always"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Keyboard"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Fire"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["11May", "2013"]
+No book match for '11May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Casablanka(sp)"]
+not whole books yet
+result: ["World"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Heres,", "4"]
+No book match for 'Heres,'
+result: []
+I'm afraid that's quite out of the question!
+result: ["I've"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["This"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Furrie(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["For"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Are"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lady"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["A"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Heart", "88"]
+No book match for 'Heart'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Comicanal"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Becomes"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["He's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Put", "22"]
+No book match for 'Put'
+result: []
+I'm afraid that's quite out of the question!
+result: ["You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Thought"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Illsa(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Said"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Round"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Looie,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["9May", "2013"]
+No book match for '9May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "1", "18"]
+
+
+result: ["Rom", "1", "20"]
+
+
+result: ["Rom", "1", "24"]
+
+
+result: ["Rom", "1", "27"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["8May", "2013"]
+No book match for '8May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gregg's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Tania"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["English"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Solar", "1", "8"]
+No book match for 'Solar'
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dad:"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Made"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Shrub"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "1", "17"]
+
+
+result: ["Rom", "1", "20"]
+
+
+result: ["Rom", "1", "21"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["JBible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Put"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["7May", "2013"]
+No book match for '7May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "1", "5"]
+
+
+result: ["Rom", "1", "11"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["6May", "2013"]
+No book match for '6May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Limbo"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rom", "8", "37"]
+
+
+result: ["1Cor", "15", "57"]
+
+
+result: ["2Cor", "2", "14"]
+
+
+result: ["Phil", "4", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ron's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["6:30on"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["RECORD:", "6", "2013"]
+No book match for 'RECORD:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["24:24Start"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["www.josephprince.com"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["26:301Joh", "5", "4"]
+No book match for '26:301Joh'
+result: []
+I'm afraid that's quite out of the question!
+result: ["1Cor", "14", "22", "-", "26"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["34:10We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["37:102Tim", "1", "6", "-", "7"]
+No book match for '37:102Tim'
+result: []
+I'm afraid that's quite out of the question!
+result: ["39:15Sound"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["44:10How"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["47:50Accused", "9"]
+No book match for '47:50Accused'
+result: ["49:15Fan"]
+not whole books yet
+result: ["50:251Cor", "12", "10", "-", "11"]
+No book match for '50:251Cor'
+result: []
+I'm afraid that's quite out of the question!
+result: ["59:20You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Comments"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["1:02:30Power"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Epolectic(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Why"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["How"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: [">>"]
+not whole books yet
+result: ["Selected"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Our"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Time"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["-"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Went"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["With"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["It's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Time", "15"]
+No book match for 'Time'
+result: []
+I'm afraid that's quite out of the question!
+result: ["<<"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["5May", "2013"]
+No book match for '5May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Annoucements(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Maclane(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["656--send"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Message"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["A"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Our", "15"]
+No book match for 'Our'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Our"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Find"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Logan"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Mangakino"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Came"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blind"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Things"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Song:"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Song:"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["3May", "2013"]
+No book match for '3May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We've"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Was"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Chuck"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["On"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gary"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Walked"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Didn't"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bear"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2May", "2013"]
+No book match for '2May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "28", "30"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["1May", "2013"]
+No book match for '1May'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gregg's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Rat"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Tom"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Old"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Old"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Edward's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Noticed", "15", "20"]
+No book match for 'Noticed'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Vacuum", "434"]
+No book match for 'Vacuum'
+result: []
+I'm afraid that's quite out of the question!
+result: ["30April", "2013"]
+No book match for '30April'
+result: []
+I'm afraid that's quite out of the question!
+result: ["VIP"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["*My"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Notes"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jer", "23", "1", "-", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["29Apr", "2013"]
+No book match for '29Apr'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Elim"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Steph:"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Got"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["High"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Say"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: ["Acts", "28", "3"]
+
+
+result: ["Acts", "28", "8"]
+
+
+result: ["Acts", "28", "15"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Timothy"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Adam", "30", "4", "-", "2013"]
+No book match for 'Adam'
+result: []
+I'm afraid that's quite out of the question!
+result: ["28Apr", "2013"]
+No book match for '28Apr'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Night"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Sarah"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["({Killing"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blessings"]
+not whole books yet
+result: ["Jim,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dad,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Sermon"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Tongues,"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Other"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Third", "9"]
+No book match for 'Third'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Adding"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bible"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["R", "27"]
+No book match for 'R27'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blessings"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blessing"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lady"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Geff"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Answered"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gerry"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Sermon"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["(Mr", "6"]
+No book match for '(Mr'
+result: []
+I'm afraid that's quite out of the question!
+result: ["It"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["No", "2", "3", "-", "12"]
+No book match for 'No'
+result: []
+I'm afraid that's quite out of the question!
+result: ["There"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Verse"]
+not whole books yet
+result: ["Josh", "6"]
+
+
+result: ["Josh", "1"]
+
+
+result: ["Josh", "1", "6"]
+
+
+result: ["2Tim", "3", "12"]
+
+
+result: ["Joh", "12", "26"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["27Apr", "2013"]
+No book match for '27Apr'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Geff"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Helped", "6"]
+No book match for 'Helped'
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["24Apr", "2013"]
+No book match for '24Apr'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["A"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Mata"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "1", "15"]
+
+
+result: ["Psalm", "41", "9"]
+
+
+result: ["Psalm", "55", "12", "-", "15"]
+
+
+result: ["Joh", "17", "12"]
+
+
+result: ["Joh", "13", "18"]
+
+
+result: ["Act", "1", "25"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["He", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["He"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Having"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Act", "1", "17"]
+
+
+result: ["Act", "1", "20"]
+
+
+result: ["Act", "1", "18"]
+
+
+result: ["Act", "1", "25"]
+
+
+result: ["Act", "1", "26"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Prestart"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Daniel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blessings"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Day(s)"]
+not whole books yet
+result: ["Dad:"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["No", "1"]
+No book match for 'No'
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gerry's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Sheryll:"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Answered"]
+not whole books yet
+result: ["Tania"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gary"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["He", "2"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ray"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gary"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Dad", "7", "40"]
+No book match for 'Dad'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ruth"]
+not whole books yet
+result: ["You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Had"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ruth"]
+not whole books yet
+result: ["Getting"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["21Apr", "2013"]
+No book match for '21Apr'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Fred's"]
+not whole books yet
+result: ["Chris"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gospel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Food"]
+not whole books yet
+result: ["1.No"]
+not whole books yet
+result: ["2.No"]
+not whole books yet
+result: ["3."]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Deut", "29", "29"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Human", "37", "5"]
+No book match for 'Human'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Don't"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gibb's"]
+not whole books yet
+result: ["Here:"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Christensen's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Nato"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["20Apr", "2013"]
+No book match for '20Apr'
+result: ["Acts", "24", "25"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["18Apr", "2013"]
+No book match for '18Apr'
+result: ["Gregg's"]
+not whole books yet
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Emptied", "4"]
+No book match for 'Emptied'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Blast"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Send"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Gregg"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Greg:", "3", "9"]
+No book match for 'Greg:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["17Apr", "2013"]
+No book match for '17Apr'
+result: ["Ark"]
+not whole books yet
+result: ["Solid"]
+not whole books yet
+result: ["Bell"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: []
+I'm afraid that's quite out of the question!
+result: ["16Apr", "2013"]
+No book match for '16Apr'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Normal"]
+not whole books yet
+result: ["Acts", "23", "16"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["15Apr", "2013"]
+No book match for '15Apr'
+result: ["Main"]
+not whole books yet
+result: ["Acts", "23", "1"]
+
+
+result: ["Acts", "23", "7"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ron"]
+not whole books yet
+result: ["How"]
+not whole books yet
+result: ["Jennifer"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Then"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["How"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: ["Jeremy's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Marcus(sp)", "19"]
+No book match for 'Marcus(sp)'
+result: []
+I'm afraid that's quite out of the question!
+result: ["John"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Daily", "24", "24", "-", "7"]
+No book match for 'Daily'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Girls"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Things"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Joseph"]
+not whole books yet
+result: ["1Cor", "12", "8", "-", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Free"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Be"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Israel"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Admit"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["If"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Bruce's"]
+not whole books yet
+result: ["Te"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["An"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["The"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["14Apr", "2013"]
+No book match for '14Apr'
+result: ["Vision"]
+not whole books yet
+result: ["\\/"]
+not whole books yet
+result: ["People"]
+not whole books yet
+result: ["Jeremy's"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Marcus(sp)", "19"]
+No book match for 'Marcus(sp)'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Worship", "25", "13", "-", "15", "2", "17"]
+No book match for 'Worship'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Speaker"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Stepping"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Art"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Raise"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: ["Colo", "4", "7", "-", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["John"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["If"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["What"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Serving"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Ingage(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Looks"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Grace"]
+not whole books yet
+result: ["Hediapea(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Me"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Jennifer"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Answer"]
+not whole books yet
+result: ["Tania"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Talk"]
+not whole books yet
+result: ["2Pet", "2", "4", "-", "9"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["turning"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Looks"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Lot"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["It"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["You"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Then"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Mine:", "14", "22"]
+No book match for 'Mine:'
+result: []
+I'm afraid that's quite out of the question!
+result: ["How"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Pet", "2", "4", "-", "9"]
+
+
+result: ["Gen", "13", "5", "-", "13"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["8Apr", "2013"]
+No book match for '8Apr'
+result: ["Act", "22", "13"]
+
+
+result: ["Act", "22", "14"]
+
+
+result: ["Act", "22", "16"]
+
+
+result: ["Act", "22", "17"]
+
+
+result: ["Act", "22", "24"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["7Apr", "2013"]
+No book match for '7Apr'
+result: ["Northpoint"]
+not whole books yet
+result: ["More"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["We", "13", "0", "-", "13"]
+No book match for 'We'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Easter", "2"]
+No book match for 'Easter'
+result: []
+I'm afraid that's quite out of the question!
+result: ["Hooper(sp)"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["People"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Being"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["I'm"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Psalm", "56", "4"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["Having"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Is"]
+not whole books yet
+result: ["Matt", "6", "21"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["4Apr", "2013"]
+No book match for '4Apr'
+result: ["Fraser"]
+not whole books yet
+result: ["On", "3"]
+No book match for 'On'
+result: ["Is"]
+not whole books yet
+result: ["The"]
+not whole books yet
+result: ["A"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Baby"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["Helicopter"]
+not whole books yet
+result: []
+I'm afraid that's quite out of the question!
+result: ["3Apr", "2013"]
+No book match for '3Apr'
+result: ["Act", "22", "3"]
+
+
+result: ["Act", "1", "3"]
+
+
+result: []
+I'm afraid that's quite out of the question!
+result: ["2Apr", "2013"]
+No book match for '2Apr'
+result: ["Act", "21",object.Error: Access Violation
+----------------
+0x005EA6EC
+0x005EA577
+0x771771F9 in RtlRaiseStatus
+0x771771CB in RtlRaiseStatus
+0x77177057 in KiUserExceptionDispatcher
+0x0012EE00
+0x0012EE1C
+----------------
+
+C:\jpro\dpro2\BibleGate\bin\Debug>cd ..\.. 

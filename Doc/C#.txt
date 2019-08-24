@@ -1,0 +1,9 @@
+C# - see bookmarks:
+
+15.03.'10
+Logical OR  	 |
+Conditional AND 	&& 
+
+System.Console.WriteLine(...)
+"namespace.class.method"
+

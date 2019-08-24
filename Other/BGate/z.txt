@@ -1,0 +1,354 @@
+
+C:\Jpro\dpro2\BGate>dmd -version=usingDfl main.d ini.lib dfl.lib -ofbgt -d 
+OPTLINK (R) for Win32  Release 8.00.2
+Copyright (C) Digital Mars 1989-2009  All rights reserved.
+http://www.digitalmars.com/ctg/optlink.html
+dfl.lib
+ Warning 2: File Not Found dfl.lib
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl11application11Application3runFC3dfl4form4FormZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10messagebox6msgBoxFAyaAyaE3dfl10messagebox13MsgBoxButtonsE3dfl10messagebox10MsgBoxIconZE3dfl4base12DialogResult
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl11application11Application10exitThreadFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control6heightMFiZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7drawing5Color6opCallFhhhZS3dfl7drawing5Color
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control5widthMFiZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control4leftMFZi
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form11addShortcutMFE3dfl4base4KeysDFC6ObjectC3dfl4form21FormShortcutEventArgsZvZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7tooltip7ToolTip7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7tooltip7ToolTip6__ctorMFZC3dfl7tooltip7ToolTip
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7tooltip7ToolTip10setToolTipMFC3dfl7control7ControlAyaZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control8locationMFS3dfl7drawing5PointZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control6bottomMFZi
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7textbox11TextBoxBase8readOnlyMFbZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl5event8__assertFiZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl5event54__T5E€„‹TC€„—7controùCý€†–€†­9€…¨ArgsZ€†³15addHandlerExactMFDF€•Ç€–ÆvÉ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7textbox7TextBox10scrollBarsMFE3dfl4base10ScrollBarsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10filedialog14SaveFileDialog7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10filedialog14SaveFileDialog6__ctorMFZC3dfl10filedialog14SaveFileDialog
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10filedialog10FileDialog6filterMFAyaZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10filedialog10FileDialog10defaultExtMFAyaZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10filedialog10FileDialog16initialDirectoryMFAyaZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10filedialog10FileDialog8fileNameMFAyaZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10filedialog10FileDialog8fileNameMFZAya
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10filedialog14OpenFileDialog7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl10filedialog14OpenFileDialog6__ctorMFZC3dfl10filedialog14OpenFileDialog
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control5rightMFZi
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control3topMFZi
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7textbox7TextBox13acceptsReturnMFbZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl6button6Button7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl6button6Button6__ctorMFZC3dfl6button6Button
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7drawing5Point6opCallFiiZS3dfl7drawing5Point
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl5label5Label6__ctorMFZC3dfl5label5Label
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7drawing4Rect6opCallFiiiiZS3dfl7drawing4Rect
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control6boundsMFS3dfl7drawing4RectZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control6parentMFC3dfl7control7ControlZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7textbox7TextBox7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7textbox7TextBox6__ctorMFZC3dfl7textbox7TextBox
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl5event52__T5E€„‹TC€„—4menu8MâItem€†”€†«9€…¦ArgsZ€†±15addHandlerExactMFDF€“Å€–ÄvÉ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4menu8MainMenu6__ctorMFZC3dfl4menu8MainMenu
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4menu8MenuItem7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4menu8MenuItem6__ctorMFZC3dfl4menu8MenuItem
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4menu8MenuItem4textMFAyaZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4menu8MenuItem5indexMFiZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4menu4Menu9menuItemsMFZC3dfl4menu4Menu18MenuItemCollection
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form4menuMFC3dfl4menu8MainMenuZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl5label5Label7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form6__ctorMFZC3dfl4form4Form
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl11application11Application11startupPathFZAya
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4menu8MainMenu7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl11richtextbox11RichTextBox7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl11richtextbox11RichTextBox6__ctorMFZC3dfl11richtextbox11RichTextBox
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7drawing4Font7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7drawing4Font6__ctorMFAyafE3dfl7drawing9FontStyleE3dfl7drawing12GraphicsUnitZC3dfl7drawing4Font
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form7onPaintMFC3dfl4base14PaintEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D8wildcard8wildcard12__ModuleInfoZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl3all12__ModuleInfoZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form8onClosedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form9onClosingMFC3dfl4base15CancelEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form6onLoadMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form12onDeactivateMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form11onActivatedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form15createMdiClientMFZC3dfl4form9MdiClient
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control16ContainerControl13activeControlMFC3dfl7control7ControlZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control16ContainerControl13activeControlMFZC3dfl7control7Control
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control17ScrollableControl9calcScaleMFS3dfl7drawing4SizeS3dfl7drawing4SizeZS3dfl7drawing4Size
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control17ScrollableControl10autoScrollMFZb
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control17ScrollableControl10autoScrollMFbZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9setDFL095MFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control15processMnemonicMFwZb
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control19processKeyEventArgsMFKS3dfl4base7MessageZb
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form14setVisibleCoreMFbZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control8onLayoutMFC3dfl7control15LayoutEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control10initLayoutMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control10onDisposedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form13destroyHandleMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control14recreateHandleMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form12createHandleMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form12createParamsMFKS3dfl7control12CreateParamsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control22createControlsInstanceMFZC3dfl7control7Control17ControlCollection
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form11defaultSizeMFZS3dfl7drawing4Size
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control7disposeMFbZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control7disposeMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form6_rtypeMFZi
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form11_destroyingMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form10defWndProcMFKS3dfl4base7MessageZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form7wndProcMFKS3dfl4base7MessageZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control18onReflectedMessageMFKS3dfl4base7MessageZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control15onNotifyMessageMFS3dfl4base7MessageZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control17onPaintBackgroundMFC3dfl4base14PaintEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control17onHandleDestroyedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form15onHandleCreatedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control21onSystemColorsChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control15onHelpRequestedMFC3dfl7control13HelpEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form16onVisibleChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control20onRightToLeftChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control13onFontChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control13onTextChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control16onEnabledChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11onLostFocusMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control10onGotFocusMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control13onDoubleClickMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control7onClickMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9onMouseUpMFC3dfl4base14MouseEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11onMouseDownMFC3dfl4base14MouseEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control12onMouseLeaveMFC3dfl4base14MouseEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control12onMouseHoverMFC3dfl4base14MouseEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control17ScrollableControl12onMouseWheelMFC3dfl4base14MouseEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control7onKeyUpMFC3dfl4base12KeyEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control10onKeyPressMFC3dfl4base17KeyPressEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9onKeyDownMFC3dfl4base12KeyEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11onMouseMoveMFC3dfl4base14MouseEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control12onMouseEnterMFC3dfl4base14MouseEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form8onResizeMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control6onMoveMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control13onInvalidatedMFC3dfl7control19InvalidateEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control6selectMFbbZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9resetTextMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control16resetRightToLeftMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control14resetForeColorMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9resetFontMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11resetCursorMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control14resetBackColorMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control7refreshMFZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control17preProcessMessageMFKS3dfl4base7MessageZb
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control14invokeRequiredMFZb
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control5opCmpMFC3dfl7control7ControlZi
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control8opEqualsMFC3dfl7control7ControlZb
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control14onGiveFeedbackMFC3dfl7control21GiveFeedbackEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control19onQueryContinueDragMFC3dfl7control26QueryContinueDragEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control10onDragDropMFC3dfl7control13DragEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control10onDragOverMFC3dfl7control13DragEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11onDragEnterMFC3dfl7control13DragEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11onDragLeaveMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control4textMFZAya
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control4textMFAyaZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control8tabIndexMFZi
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11rightToLeftMFZE3dfl4base11RightToLeft
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11rightToLeftMFE3dfl4base11RightToLeftZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11rightToLeftMFbZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control15onParentChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9foreColorMFZS3dfl7drawing5Color
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9foreColorMFS3dfl7drawing5ColorZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control18onForeColorChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control4fontMFZC3dfl7drawing4Font
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control4fontMFC3dfl7drawing4FontZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control7focusedMFZb
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control4dockMFE3dfl7control9DockStyleZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control4dockMFZE3dfl7control9DockStyle
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control18onHasLayoutChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control17ScrollableControl16displayRectangleMFZS3dfl7drawing4Rect
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control6cursorMFZC3dfl4base6Cursor
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control6cursorMFC3dfl4base6CursorZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control15onCursorChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11contextMenuMFZC3dfl4menu11ContextMenu
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control11contextMenuMFC3dfl4menu11ContextMenuZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control20onContextMenuChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form17setClientSizeCoreMFiiZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control25onCausesValidationChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form13setBoundsCoreMFiiiiE3dfl7control15BoundsSpecifiedZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form9backColorMFZS3dfl7drawing5Color
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9backColorMFS3dfl7drawing5ColorZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control18onBackColorChangedMFC3dfl5event9EventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9allowDropMFZb
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control9allowDropMFbZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control16onControlRemovedMFC3dfl7control16ControlEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control17ScrollableControl14onControlAddedMFC3dfl7control16ControlEventArgsZv
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control8opEqualsMFC6ObjectZb
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control5opCmpMFC6ObjectZi
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control8toStringMFZAya
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl4form4Form7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control16ContainerControl7__ClassZ
+bgt.obj(bgt) 
+ Error 42: Symbol Undefined _D3dfl7control7Control7__ClassZ
+--- errorlevel 173

@@ -1,0 +1,16 @@
+Riverbend Impact Conference 2010:
+
+Response:	APPROVED
+Description:	2667
+Transaction Type:	Purchase
+Amount :	300.00
+Card Type:	Visa
+Card Holder Name:	J E CHRISTENSEN
+Authorization Code:	952900
+Response:	APPROVED
+Description:	2667
+Transaction Type:	Purchase
+Amount :	300.00
+Card Type:	Visa
+Card Holder Name:	J E CHRISTENSEN
+Authorization Code:	952900

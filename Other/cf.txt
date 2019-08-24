@@ -1,0 +1,5 @@
+import std.process;
+
+void main() {
+	wait(spawnShell("dmd -debug -ofbin/Debug/run base book chapter misc verse bible main terminal arsd/*.d")); //" BGate/*.d"));
+}

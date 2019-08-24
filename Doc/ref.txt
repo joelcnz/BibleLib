@@ -1,0 +1,31 @@
+Reference:
+
+DAllegro:
+http://www.dsource.org/forums
+Fourm: Compiling..
+
+Tea - 2 cups of rice and 2 cups of water. For a flat of 7 people. - do a full version of the Perl started recipe. [ ]
+
+A millisecond (from milli- and second; abbreviation: ms) is a thousandth (1/1,000) of a second.
+
+Note: If for Timo's look up money.txt
+
+Forum checks:
+google docs
+DSFML2 D.announce (Thunderbird)
+
+Web dev:
+In Command prompt, enter 'edp we'
+
+My printer:
+To print double sided.
+1. Make sure boths sides of all the leaves are clear.
+2. Copy document to Open Office.
+3. Insert a footer and put in page number number of pages and date
+4. Click print (Ctrl+P) and click options. Check reverse and left pages.
+5. Click print.
+6. Turn pages up sidedown and flip over.
+7. Go back to print, options then uncheck left and check right.
+8. Print
+
+--------------------------------------------------------

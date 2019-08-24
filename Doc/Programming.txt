@@ -1,0 +1,133 @@
+//#People
+Programming Issues and stuff:
+
+5.05.'10
+Can't get opEquals to work. [ ]
+
+17.04.'10
+Tick is boken.
+>
+import tango.stdc.stdlib;
+
+void main() { system("cls"); }
+<
+to avoid compiling curtain code use:
+version (none) {}
+
+Try doing the same thing with different ways reading and writing binary files.
+
+Learning using function passing, delegates or what ever their called, might be really handy.
+
+autorun.inf
+[AutoRun]
+icon=white.ico
+
+28.03.'10
+With Sprial, See Ctrl + L and enter 82 (its alive!)
+
+25.03.'10
+I don't think Java is as nifty as its siblings not counting how it can run on every thing.
+Running program getting stuck is a major problem. [ ]
+
+21.03'.10
+object type - not the same as IS A relationship
+
+14.03.'10
+alias short bar;
+typedef char foo;
+void test(bar x)
+{
+    if ( is(bar == int) )	// not satisfied because short is not
+				// the same type as int
+	writefln("satisfied");
+    else
+	writefln("not satisfied");
+    if ( is(foo == typedef) ) // satisfied because foo is a typedef
+	writefln("satisfied");
+    else
+	writefln("not satisfied");
+}
+[1u,2,3];	// type is uint[3], with elements 1u, 2u, and 3u
+class object
+
+13.03.'10
+Inner most loop.
+
+9.03.'10
+-L/subsystem:windows:4 program not run with double click in the file browser.
+NotePad++ seems to have a rubbish macro mode or though it has mulipul play times. So I used Crimson(sp) Editor.
+//#People:
+Ary Borenszweig - Descent for Eclipse (I think)
+Torhu - Allegro man
+Michael P - E-mailed back and forth
+
+How do I set up C# and Java newsgroups with Thunderbird? [. ] - Maybe better to use Google Reader.
+
+8.03.'10
+1_000 Milliseconds makes a second. (Thousandths of second.)
+
+5.03.'10
+>
+debug:
+debug(1)
+debug(extra_with_cheese)
+and
+debug ..
+See under Conditional Compilation - Digital Mars
+<
+Have trouble with trying to destroy bitmaps in the destructor. [. ] Already destroyed bitmaps.
+
+2.3.'10
+import tango.core.tools.TraceExceptions;
+
+You must link to libdl (-ldl).
+>>
+import std.stdio;
+
+struct sum(A,B) {
+    A a;
+    B b;
+
+    auto opAdd(T)(T a) { return .sum!(sum,T)(this,a); }
+}
+
+
+struct base {
+    auto opAdd(T)(T a) { return .sum!(base,T)(this,a); }
+}
+
+void main() {
+    base a,b,c;
+
+    // first a few working examples
+    writeln(typeid(a));       // base
+    writeln(typeid(a+b));     // sum!(base,base).sum
+    writeln(typeid(a+(b+c))); // sum!(base,sum!(base,base)).sum
+
+    sum!(sum!(base,base),base) d;
+    writeln(typeid(d));       // sum!(sum!(base,base),base).sum
+
+    // the following produces
+    //   Error: recursive template expansion for
+    //   template argument sum!(base,base)
+    writeln(typeid((a+b)+c)); // sum!(sum!(base,base),base).sum
+} 
+<<
+
+25.02.'10
+import tango.core.tools.TraceExceptions;
+
+16.02.'10
+Junction for switch between mulipul installments of the samish thing dirs:
+http://technet.microsoft.com/en-us/sysinternals/bb896768.aspx
+Files: 
+fsutil hardlink create <new filename> <existing filename>
+<http://technet.microsoft.com/en-us/library/cc788097%28WS.10%29.aspx>
+http://www.howtogeek.com/howto/windows-vista/using-symlinks-in-windows-vista/
+
+15.2.'10
+Try: import fm = tango.text.convert.Format: Format; // or some thing
+
+1. What does nonscalar type mean? - Maybe it's not an array.
+
+michaelp - Adventures in D. Linux is what he uses for D. He hasn't got D setup on Windows.

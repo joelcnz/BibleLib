@@ -1,0 +1,4 @@
+Blender 3D:
+
+Ctrl + W - rather than Ctrl + S.
+Axis's - x -  red, y- green,  z - blue

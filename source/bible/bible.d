@@ -1,5 +1,6 @@
 module bible.bible;
 
+//#current work
 //#not sure about this
 //debug = 5;
 
@@ -51,6 +52,11 @@ class Bible {
 	//int chapter, chapters, 
 	enum NA = -1; // invalid book
 
+	/// eg John 3:16-17
+	string getTitle() {
+		return "";
+	}
+
 	bool retValue() { return m_retValue; } //#this would be good to use
 
 	// -1 will be -2 and -2 -3
@@ -60,7 +66,7 @@ class Bible {
 			int n = max - (number * -1);
 			
 			return n;
-		} else if (number > max){
+		} else if (number > max) {
 			return max;
 		}
 
@@ -130,10 +136,10 @@ class Bible {
 		import std.range;
 		if (bookTitle.length > 2 && bookTitle[0 .. 2] == "|_") /* then */ bookTitle = bookTitle.drop(2);
 		
-		foreach(int i, book; m_books)
+		foreach(i, book; m_books)
 			if (book.m_bookTitle.length >= bookTitle.length
 				&& book.m_bookTitle[0 .. bookTitle.length].toLower == bookTitle.toLower) {
-				bookNumber = i + 1;
+				bookNumber = cast(int)i + 1;
 				break;
 			}
 			
@@ -252,9 +258,10 @@ class Bible {
 			//   0   1 2 3 4  5
 			// Psal 32 1 - 2 -1 (Psalms 32:1-2:22)
 			if (args.length == 6) {
+				37.gh;
 				bookNumber = bookNumberFromTitle(args[0], feedBack); // eg 1 args[0] 'Genesis'
 				if (bookNumber == NA)
-					return "";
+					return "book number NA";
 				chapterNumber = args[1].to!int;
 				verseNumber = args[2].to!int;
 				chapterNumber2 = args[4].to!int;
@@ -292,6 +299,7 @@ class Bible {
 		return "";
 	}
 
+	/// Align numbers from 1-# to 0-#
 	void reduceNumbers(ref int book, ref int chapter, ref int verse, ref int book2, ref int chapter2, ref int verse2) {
 		foreach(id; [&book, &chapter, &verse, &book2, &chapter2, &verse2])
 			--(*id);
@@ -314,43 +322,49 @@ class Bible {
 	}
 
 	string getVerseRange(int book, int chapter, int verse, int book2, int chapter2, int verse2, ReferanceType reft) {
-		debug(5) writeln(q{string getVerseRange(int book, int chapter, int verse, int book2, int chapter2, int verse2): } ~ ` \/`);
-		debug(5) writefln("book %s, chapter %s, verse %s, book2 %s, chapter2 %s, verse2 %s", book, chapter, verse, book2, chapter2, verse2);
+		debug(6) writeln(q{string getVerseRange(int book, int chapter, int verse, int book2, int chapter2, int verse2): } ~ ` \/`);
+		debug(6) writefln("book %s, chapter %s, verse %s, book2 %s, chapter2 %s, verse2 %s", book, chapter, verse, book2, chapter2, verse2);
+
+		string verses;
+
 		scope(failure) {
 			//debug writefln("Error: get verse range: An error has happen!"
 			//	"\nBook: %s, chapter: %s, verse: %s, book2: %s, chapter2: %s, verse2: %s",
 			//	m_books[book].m_bookTitle, chapter + 1, verse + 1, m_books[book2].m_bookTitle, chapter2 + 1, verse2 + 1);
-			return "";
+			return "(failure) - ";
 		}
 		
-		debug(5) writefln("using from the last, before:" ~
+		debug(8) writefln("using from the last, before:" ~
 			"\nBook: %s, chapter: %s, verse: %s, book2: %s, chapter2: %s, verse2: %s",
-			book, chapter + 1, verse + 1, book2 + 1, chapter2 + 1, verse2 + 1);
+			book + 1, chapter + 1, verse + 1, book2 + 1, chapter2 + 1, verse2 + 1);
 
 		//import jxmisc;
 
 		book = parseNumber(66, book);
 		chapter = parseNumber(cast(int)m_books[book].m_chapters.length, chapter);
-		debug(5)
+		debug(8)
 			mixin(trace("/* verse before */ verse"));
 		verse = parseNumber(cast(int)m_books[book].m_chapters[chapter].m_verses.length, verse);
-		debug(5)
+		debug(8)
 			mixin(trace("/* verse after */ verse"));
+		book2 = parseNumber(66, book2);
+		chapter2 = parseNumber(cast(int)m_books[book2].m_chapters.length, chapter2);
+		verse2 = parseNumber(cast(int)m_books[book2].m_chapters[chapter2].m_verses.length, verse2);
+
+		debug(8) writefln("using from the last, after:" ~
+			"\nBook: %s, chapter: %s, verse: %s, book2: %s, chapter2: %s, verse2: %s",
+			book + 1, chapter + 1, verse + 1, book2 + 1, chapter2 + 1, verse2 + 1);
 
 		g_info.book = m_books[book].m_bookTitle;
 		g_info.chapter = chapter;
 		g_info.verse = verse + 1;
 		g_info.verseCount = cast(int)m_books[book].m_chapters[chapter].m_verses.length;
 		g_info.chapterCount = cast(int)m_books[book].m_chapters.length;
-
-		book2 = parseNumber(66, book2);
-		chapter2 = parseNumber(cast(int)m_books[book].m_chapters.length, chapter2);
-		verse2 = parseNumber(cast(int)m_books[book].m_chapters[chapter].m_verses.length, verse2);
 		
-		auto inBook = false,
+		auto inPassage = false,
+			inBook = false,
 			inChapter = false,
 			inVerse = false;
-		string verses;
 		
 		// c for current (eg cbook - current book)
 		int cbook = book;
@@ -360,10 +374,16 @@ class Bible {
 		bool next;
 		do {
 			string verseOther;
-			if (! inBook) {
-				debug(5) mixin(trace("cbook"));
-				verseOther = m_books[cbook].m_bookTitle ~ " ";
+			//#current work
+			if (! inPassage) {
+				inPassage = true;
+				auto through = verse2 != verse && chapter2 == chapter ?
+					(verse+1).to!string ~ "-" ~ (verse2+1).to!string : "";
 
+			}
+			if (! inBook) {
+				debug(10) mixin(trace("cbook"));
+				verseOther = m_books[cbook].m_bookTitle ~ " ";
 
 				inBook = true;
 				inChapter = false;
@@ -374,7 +394,7 @@ class Bible {
 				verseOther ~= text(cchapter + 1, ":");
 			}
 
-			debug(4)
+			debug(15)
 				mixin(trace("verseOther"));
 
 			final switch(g_wrap) {
@@ -386,14 +406,14 @@ class Bible {
 				break;
 				case false:
 					verses ~= verseOther ~ m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verseTitle ~
-								(inVerse ? " " : " -> ") ~ m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verse ~
+								(inVerse ? " " : "-"~(verse2+1).to!string~" -> ") ~ m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verse ~
 								'\n';
 				break;
 			}
 			
 			inVerse = true;
 			cverse++;
-			debug(5) mixin(trace("cverse"));
+			debug(10) mixin(trace("cverse"));
 			//if (cverse == m_books[cbook].m_chapters[cchapter].m_verses.length) {
 			if (cverse >= m_books[cbook].m_chapters[cchapter].m_verses.length) {
 				inChapter = false;
@@ -416,7 +436,7 @@ class Bible {
 				break;
 			
 //			enum ReferanceType {/* Joel 1 1: */ one, /* Joel 1 1 - 3: */ five, /* Joel 1 1 - 2 3: */ six, /* Joel 1 1 - Amos 1 3: */ seven}
-			if (reft == ReferanceType.five) { // possible to have same book come under multiBook
+			if (reft == ReferanceType.five || reft == ReferanceType.six || reft == ReferanceType.seven) { // possible to have same book come under multiBook
 				if (next)
 					break;
 				if (cverse == verse2)
@@ -442,7 +462,6 @@ class Bible {
 +/
 		g_info.chapter = _chapter;
 		//g_info.
-		
 		return verses;
 	}
 }
@@ -462,6 +481,9 @@ unittest {
 	assert(g_bible.argReference("Joel -1".split)[$ - 7 .. $ - 2] == "Zion.");
 	assert(g_bible.argReference("29 -1".split)[$ - 7 .. $ - 2] == "Zion.");
 	//assert(g_bible.argReference("Rom 8 28 - 29".split) == );
+	writeln('>', g_bible.argReference("Joel -1 -2 - 30 -1 2".split), '<');
+	debug(6)
+		writeln('>', g_bible.argReference("Joel 1 -2 - 2 2".split), '<');
 	//assert(g_bible.argReference("Joel 1 1 - -1 21".split)[$ - 7 .. $ - 2] == "Zion."); // fails
 	//assert(g_bible.argReference("Joel 1 1 - -1 -1".split)[$ - 7 .. $ - 2] == "Zion."); // fails
 	//assert(g_bible.argReference("Joel 1 1 - Joel -1 -1".split)[$ - 7 .. $ - 2] == "Zion."); // fails

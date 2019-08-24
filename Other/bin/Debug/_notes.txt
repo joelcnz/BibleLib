@@ -1,0 +1,19 @@
+JBible Notes:
+
+(some thing I thought of to go here Grrr..)
+
+notescurrent.txt - the notes file.
+
+Problems with new lines not working (reference list file).
+
+This is made redundant with the GUI stuff:
+
+Edit 'source.txt' and add verse references, on per line.
+
+Valid references (not counting the '-1' one):
+Joh 1 1
+Eph 2 8 - 9
+1Joh 1 1 - -1
+1 Joh 1 1 (works as well)
+
+1Joh preduces the whole of chapter one.

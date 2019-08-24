@@ -395,6 +395,13 @@ string equalDistanceLetterSequence(string str, in size_t bookNumber, in size_t s
 }
 +/
 
+void resetVerseTags() {
+	foreach(i, book; g_bible.m_books)
+		foreach(i2, chapter; book.m_chapters)
+			foreach(i3, ref verse; chapter.m_verses)
+				verse.m_tagged = true;
+}
+
 enum WordSearchType {wholeWords, wordParts};
 	
 string wordSearch(string[] words, WordSearchType wordSearchType) {
@@ -420,7 +427,9 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 	g_forChapter.length = 0;
 	foreach(i, book; g_bible.m_books) { // go through books
 		foreach(i2, chapter; book.m_chapters) { // go through each chapter of the books
-			foreach(i3, verse; chapter.m_verses) { // go through each verse of the chapters
+			foreach(i3, ref verse; chapter.m_verses) { // go through each verse of the chapters
+				if (verse.m_tagged == false)
+					break;
 				bool canFindWords = true;
 				string ver;
 
@@ -462,8 +471,12 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 						result ~= format("%s) %s %s:%s -> %s\n",
 								 	   count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
 						g_forChapter ~= format("%s %s", book.m_bookTitle, chapter.m_chapterTitle);
+					} else {
+						verse.m_tagged = false;
 					}
-				}  // if canFindWords
+				} // if canFindWords
+				else
+					verse.m_tagged = false;
 			}
 		}
 	}
@@ -488,6 +501,8 @@ string phraseSearch(string phrase) {
 	foreach(bi, book; g_bible.m_books) {
 		foreach(ci, chapter; book.m_chapters) {
 			foreach(di, verse; chapter.m_verses) {
+				if (verse.m_tagged == false)
+					break;
 				auto ver = verse.verse;
 				if (! caseSensitive)
 					ver = ver.toLower;
@@ -497,7 +512,8 @@ string phraseSearch(string phrase) {
 					result ~= format("%s) %s %s:%s -> %s\n",
 						count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
 					g_forChapter ~= format("%s %s", book.m_bookTitle, chapter.m_chapterTitle);
-				}
+				} else
+					verse.m_tagged = false;
 			}
 		}
 	}
@@ -633,10 +649,10 @@ enum BookId {
 	b2John = 63,
 	b3John = 64,
 	bJude = 65,
-	bRevelation = 66};
+	bRevelation = 66}
 
 //#ELS - equal distance letter sequences
-dchar[] scan(dchar[] text) {
+dchar[] codeScan(dchar[] text) {
 
 	//'-'.repeat.take(80).writeln;
 	//'-'.repeat(80)

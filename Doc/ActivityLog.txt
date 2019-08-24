@@ -1,0 +1,237 @@
+﻿Activty Log:
+
+8.05.'10
+Movie - Mr.Smith goes to Washington. Used my computer in the lounge. Others watched at lessed some of it.
+Upsill - Press the letter x2 I think.
+
+04.05.'10
+Upskill - yup.
+Reading - Code complete, Bible 20 minutes each.
+
+30.04.'10
+Keyboard - Abc, Abc2, Slow type: 1 minute, average 0.71 seconds, 3 wrongs. %96.59. Kiran typing: did 31 sets for typing practice.
+Maths - Timed Maths. Got 19.98 seconds with 7 times table.
+Mouse - Over a minute.
+Programming - Plays a sound when Hamish wins (namely RAWR!)
+
+25.0.'10
+Maths - Timed times table. 26 seconds.
+Driving - Had another lesson with Matt S.
+
+22.04.'10
+Typing - Went though the alphabet with Slow Type. Got about the same time as going through he times table.
+Maths - Timed maths. 7 times again, not very fast.
+Programming - Did a bit on Timothy's computer (Balliters Remake).
+Driving - Lesson with Phil Shorter.
+
+21.04.'10
+Play - Played Timothy in Balliters remake.  Won the first game after a while, drew the second game.
+Spelling - Spell it: Went twice, got one wrong 1st time, none the second.
+Maths - 21 seconds with 7 times table. Now 16.65 seconds.
+Programming - Tried stuff with D2, like succ and split.
+Bible - Read a chapter 4 of 1 John.
+
+20.04.'10
+Maths - Timed Maths 7 times table. Fastest time: 22.44 seconds.
+Food - Haven't been wasting money on it, just once a week. Have been having tea and when with Matt coffee.
+Driving - Went all the way to Cambridge with Matt S.
+Programming - Worked on BuillitD still cleaning code up.
+
+19.04.'10
+Programming - Worked on BullitD still refractoring.
+Typing - Slow type, pressed G instead of H I think.
+
+16.04.'10
+Programming - BullitD just refractering. And have been focusing on it this week.
+Reading - ESV Bible reading.
+Typing - Slow type. Was careful for a minute and got 100% acceratey(sp)
+
+1.04.'10
+Reading - Joel 3.
+
+2.04.'10
+Reading - Joel 2.
+Typing - Slow Type 1 minute.
+
+1.04.'10
+Reading - 1Joh 1, Joel 1 (in my new Bible -- compact ESV).
+
+29.03.'10
+Typing - Slow Type 1 minute.
+
+26.03.'10
+Typing - Slow Type 1 minute.
+
+25.03.'10
+Programming - Started BullitD
+
+24.03.'10
+Spelling - Spell Lit. Need more words. Still got a few wrong.
+Typing - Slow type. Did a minute.
+Reading - Code Complete. 2 pages of.
+
+23.03.'10
+Spelling - Spell Lit for spell5, got them all right on the second go.
+Typing - Slow type for a minute.
+Rest - Got up at 11:07. In the afternoon I I lay down for about 2.5 hours.
+Programing - Made a new version of Fishy (jelly fish keep there distance). And Detailed Book Keeping (select regions for anylizing(sp)).
+
+22.03.'10
+Spelling - Spell it. Need more words.
+Typing - Slow type. Not as good when I don't feel upto it.
+
+19.03.'10
+Typing - Slow Type
+Spelling - Spell It
+
+15.03.'10
+Spelling - Used Spell i spell3. Got much more wrong with that one. But kept at it till I got 100% (with Morris's voice when I did).
+
+14.03.'10
+Spelling - Kept doing spell2 till I got perfect.
+Typing - Did a minute at lessed.
+Watch some of a thing on D by Walter Bright.
+
+12.03.'10
+Typing - Typed out from a book.
+
+11.03.'10
+Typing - Slow Type, 1 minute.
+
+9.03.'10
+Reading - Tried Google Reader.
+
+8.03.'10
+Typing - Slow type 1 minute.
+
+6.03.'10
+Typing - Slow Type 1 minute
+Spelling - Did spell2 twice
+
+5.03.'10
+Typing - Pressed U instead of I. Did 1 minute.
+Programming - Started work on a fast selection library
+Spelling - Using Spell It! Did spell1 and spell2, got one wrong first attempt.
+
+4.02.'10
+Amuse - Watched Joshua.
+Flat - Started dishes by scraping stuff off dishes. I don't feel like doing any thing though.
+Flat - Did my washing, not much.
+Flat - Got milk, and so did some one else, (I think Hamish). I should have wiped milk off the board when I was leaving to get it.
+Typing - Did 3 minutes in Slow Type.
+
+25.02.'10
+Typing – Typed for about 2 minutes on Ubuntu using ./ldcLetters
+
+24.02.'10
+Typing - Did 3 minutes in one go with slow typing.
+Fixing - Got the back tube out of my bike.
+Social - Helped out Matt Steed. He may give me driving lessons.
+Drink - Milo with milk, cream and 2 sugar.
+Dishes - Did nearly all of them.
+Washing - Washed the few dirty clothes I had.
+
+23.02.'10
+Programming - Worked on Fishy, made it better for putting photos in, but I'm not sure, I may revert.
+Typing - 2  minutes slow type.
+KGP - Typed some of it onto computer.
+Maths - Timed maths.
+Social - helped people move into their rooms, (with student life).
+
+22.02.'10
+Blender - bit.
+Typing - 3  minutes of my slow type. (two goes first go 2 minutes got 100%).
+
+21.02.'10
+Social - Went to Ignition. Had a spirital conversion with Leo(sp).
+
+20.02.'10
+Blender - April
+Washing - Did it today, also washed house stuff, and fixed up the places where the pipes hook onto.
+Programming - added loosing when you died in Fishy.
+Work/social - Did cleaning and vaccuming in old flat with others.
+
+
+19.02.'10
+Typing - 1 minute slow type.
+D - red some artical(sp).
+Hand printing - did some.
+
+18.2.'10
+Blender - starting.
+Prgramming - Slow type, a little bit of tidy.
+Reading - The Case for D
+Nap - Took a nap.
+Typing - Did 5 minutes of Slow Type. 2 one minute 100%
+
+17.2.'10
+Social - went to Bardoes.
+C# started lessons.
+Did March Month print outs.
+Managed to do a whopping enum colour listing, well I thought I had (hadn't tried it).
+
+16.2.'10
+Moving to new flat. Hang out with Matt Steed, took photos of model plane and printed one out, he was pleased. Helped him setup selling his Go Kart on Trade Me. Went to bed in the new flat, had a good sleep.
+
+15.2.'10
+CSS - Did some, stuck now though. Have to get some face to face help.
+Slow type 2 min.
+Bare feet - been walking in them last few days.
+
+14.02.'10
+D - Had a go at sound with Arclib, got farther than before with help.
+
+13.02.'10
+Html - Up to CSS
+Junk food - Bought and ate a lot of it today, was lyning down most of today, (not because of it mind).
+D Read about D2 and C++.
+Slow Type. 3 Minutes
+Internet - looked  a D forums.
+
+12.02.'10
+Social - Played Atomic Bomber Man with Hamish
+Forum - Wrote in a forum two places.
+Social - friends came over. Damian, Taiti. Was invited to do rock hoping by Phil W and Jono.
+Html - did some
+Code Complete - red some.
+
+11.02.'10
+Html: Touched on it, but still onto the next chapter.
+Did my own key/value thing for my Slow Type program.
+E-mailed a D guy.
+Slow Type - 2 minutes.
+Watch 38min of Amasing Grace Disc 1.
+Did washing.
+Did the dishes.
+Popped round to see Ryan about DVD's I'd lent him, (ones that are lent to me).
+
+
+10.02.'10
+Showed Timothy a book shop he hadn't been in before (second hand ont on Victoria street).
+Walked to Bardoe's. Watched a thing on predestination, it didn't make much sence to me.
+Worked on Bejeweled graphics using my Zart pixel program.
+M Doc today, don't think I can say much. Timothy thinks he can come though.
+
+9.02.'10
+Getting to bed late (10:50)
+Started my Bejeweled that Hamish wanted me to do.
+Copied a photo for Phil S(head wrapping).
+HTML worked more on it.
+Noodles cooked my self some.
+Fishy - Fixed an error, took a while.
+Added 'shop' to my Money program.
+1.5 minutes of slow typing.
+Read some of Code Complete.
+Tagged along with Timothy getting a lesson in my car with Chris C.
+
+8.02.'10
+6 minutes of Slow Type.
+Been lying down all day.
+Read some Blender book. Played on Blender, (made a box and had a ball fall into it).
+Worked on html.
+
+7.02.'10
+Did some touch typing on Slow Type. About 5 minutes.
+
+6.02.'10
+Did some touch typing on Slow Type, programing it to have a log

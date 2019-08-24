@@ -1,0 +1,107 @@
+Back log:
+1. Get the dots to fall - est 30min
+
+7:24-54
+
+Meeting:
+Outcome -
+Got the dots to fall in time, but didn't use a tango data stucture as I hoped.
+
+Back log
+1. Use a data structure from tango - 10min
+
+Meeting:
+Outcome -
+Did it in about 3 minutes, but used a deprecated class.
+
+Back log:
+1. Look into array sequences - 10
+
+Start: 8:06
+
+Meeting:
+Interupted by Dad.
+
+Back log:
+1. Draw for cup - 10min
+2. have the dots stop a the botton of cup - 5min
+
+1. Start: 9.18 - took 5min half the time estmateted
+2. Start: 9.24 1/2
+
+Meeting:
+1. Didn't have good drawing tools and still did it way ahead of sedual(sp)
+2. Stopped at 9.49 - did refratoring
+
+Break time.
+
+Back log:
+1. Make the dot detect themselves - 20min
+
+1. Start 11:48
+
+Meeting:
+1. a thing isn't working. Went over time. Need more time.
+
+Back log:
+1. Make the dots fall in one lump. 5min
+
+1. Start 12:23
+
+Meeting:
+1. done in 4 mins.
+
+Back log:
+1. Refactor - 10min
+
+1. Done - forgot to write down the start time!
+
+Back log:
+1. dots going to the left - 10
+
+1. Start: 12:43
+
+Meeting:
+1. 6min to do
+
+Back log:
+1. dots going to the right - 5
+
+1. Start: 12.47
+
+Meeting:
+1. Was over time, did a bit of refractoring (I think). I've called the result blue sugar because it doesn't run level like liquid.
+
+Lunch break.
+
+Meeting:
+Did a lot of stuff not using this.
+Got water working well. I had also make a not so good water.
+
+BackLog:
+1. Texter water - 20min
+
+1. Start 8:27
+
+Meeting:
+1. took 24minutes. Had trouble with the camera saying it needed a battery change (even with freshly charged batteries). Got the textured dots to work, but didn't like it.
+
+BackLog:
+1. try different containers - 20
+
+1. Start 8:54
+
+Meeting:
+1. 2 minutes over time. Kind of mucked around. Got water that fills areas better, I think I can work with it, but it falls on an angle forward or backward.
+
+BackLog:
+1. Put texture back in, but a different way, dot mask. - 10 minutes
+2. Try and fix the water simulation - 10 minutes
+
+1. Start 9:20 - 9:23
+2. Start 9:24 - 
+
+Meeting:
+1. Did it under in 1/3 of the time.
+2. 34 minutes, 14 minutes over time. I refractored and altered (filled a hole in the botton of the container) the container. Didn't improve the water simulation any (it's better that my old Dots version), thought I'd refactor to make it easier to edit.
+

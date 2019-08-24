@@ -1,0 +1,15 @@
+1 John 5 7
+Eph 2 8 - 9
+
+John 3 16 - 17
+
+Gen 1 1
+
+
+Joh 1 1
+
+1 Peter 1
+
+1Peter 1 1
+
+book -1 -1

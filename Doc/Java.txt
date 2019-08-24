@@ -1,0 +1,36 @@
+a class is a blue print.
+
+----------------------------------------------------
+       1. Real-world objects contain _state_ and _behavior_.
+
+       2. A software object's state is stored in _fields_.
+
+       3. A software object's behavior is exposed through _methods_.
+
+       4. Hiding internal data from the outside world, and accessing it only through publicly exposed methods is known as data _encapsulation_.
+
+       5. A blueprint for a software object is called a _class_.
+
+       6. Common behavior can be defined in a _super class_ and inherited into a _subclass_ using the _extends_ keyword.
+
+       7. A collection of methods with no implementation is called an _interface_.
+
+       8. A namespace that organizes classes and interfaces by functionality is called a _package_.
+
+       9. The term API stands for _Application Programming Interface_? 
+
+------------------------------------------------------
+------------------------------------------------------
+
+    Rectangle rectTwo = new Rectangle(50, 100);
+
+The first line creates an object of the Point class, and the second and third lines each create an object of the Rectangle class.
+
+Each of these statements has three parts (discussed in detail below):
+
+   1. Declaration: The code set in bold are all variable declarations that associate a variable name with an object type.
+   2. Instantiation: The new keyword is a Java operator that creates the object.
+   3. Initialization: The new operator is followed by a call to a constructor, which initializes the new object. 
+
+------------------------------------------------------
+------------------------------------------------------
