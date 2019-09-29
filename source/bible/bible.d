@@ -1,6 +1,5 @@
 module bible.bible;
 
-//#current work
 //#not sure about this
 //debug = 5;
 
@@ -23,7 +22,7 @@ module bible.bible;
 //#chapter not limited, and crash!
 //#but what about "1Joh 2 3 - -1", the "-"'s get removed
 //#not work
-//#eg 'Gen 1 1 -' -- get whole chapter
+//#eg 'Gen 1' -- get whole chapter
 //#clear the text file
 
 //version = DUnit; // dep
@@ -52,11 +51,6 @@ class Bible {
 	//int chapter, chapters, 
 	enum NA = -1; // invalid book
 
-	/// eg John 3:16-17
-	string getTitle() {
-		return "";
-	}
-
 	bool retValue() { return m_retValue; } //#this would be good to use
 
 	// -1 will be -2 and -2 -3
@@ -83,6 +77,13 @@ class Bible {
 			m_retValue = false;
 		}
 		return ret;
+	}
+
+	/// eg John 3:16-17
+	string getTitle(int book, int chapter, int verse, int book2, int chapter2, int verse2) {
+		return m_books[book].m_bookTitle ~ " " ~ text(chapter + 1, ":") ~
+			m_books[book].m_chapters[chapter].m_verses[verse].m_verseTitle ~
+				(verse2 > verse ? "-"~(chapter2 == chapter ? (verse2+1).to!string : "") : "");
 	}
 
 	auto expVers(in string fileNameIn, in string fileNameOut, in string txtIn = "") {
@@ -113,7 +114,8 @@ class Bible {
 				eline = line[0 .. cast(size_t)tend].stripRight;
 			string verses = argReference(eline.split, /* feed back */ true);
 			if (verses != "")
-				line = "|_" ~ line ~ " <> " ~ verses[0 .. (eline == "" ? 0 : $ - 1)];
+				//line = "|_" ~ line ~ " <> " ~ verses[0 .. (eline == "" ? 0 : $ - 1)];
+				line = line[(tend == -1 ? eline.length : tend) .. $] ~ " <> " ~ verses[0 .. (eline == "" ? 0 : $ - 1)];
 
 			text ~= line;
 			if (i != lines.length - 1)
@@ -145,7 +147,7 @@ class Bible {
 			
 		if (bookNumber == NA) {
 			if (feedBack) {
-				debug writeln("No book match for '", bookTitle, "'");
+				debug(10) writeln("No book match for '", bookTitle, "'");
 			}
 
 			return NA;
@@ -318,7 +320,10 @@ class Bible {
 
 @trusted:
 	int numberOfVerses() {
-		return cast(int)m_books[_book - 1].m_chapters[_chapter - 1].m_verses.length;
+		if (_book > 0 && _chapter > 0)
+			return cast(int)m_books[_book - 1].m_chapters[_chapter - 1].m_verses.length;
+		else
+			return 0;
 	}
 
 	string getVerseRange(int book, int chapter, int verse, int book2, int chapter2, int verse2, ReferanceType reft) {
@@ -361,8 +366,7 @@ class Bible {
 		g_info.verseCount = cast(int)m_books[book].m_chapters[chapter].m_verses.length;
 		g_info.chapterCount = cast(int)m_books[book].m_chapters.length;
 		
-		auto inPassage = false,
-			inBook = false,
+		auto inBook = false,
 			inChapter = false,
 			inVerse = false;
 		
@@ -374,24 +378,22 @@ class Bible {
 		bool next;
 		do {
 			string verseOther;
-			//#current work
-			if (! inPassage) {
-				inPassage = true;
-				auto through = verse2 != verse && chapter2 == chapter ?
-					(verse+1).to!string ~ "-" ~ (verse2+1).to!string : "";
-
-			}
 			if (! inBook) {
 				debug(10) mixin(trace("cbook"));
-				verseOther = m_books[cbook].m_bookTitle ~ " ";
+				//verseOther = m_books[cbook].m_bookTitle ~ " ";
+				verseOther = getTitle(book, chapter, verse, book2, chapter2, verse2);
 
 				inBook = true;
 				inChapter = false;
-			}
-			if (! inChapter) {
+			} else if (! inChapter) {
 				inChapter = true;
 				import std.conv : text;
-				verseOther ~= text(cchapter + 1, ":");
+				if (cchapter != chapter && cverse != verse + 1)
+					verseOther ~= text(cchapter + 1, ":") ~
+						m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verseTitle ~
+							(inVerse ? " " : (verse2 > verse ? "-"~(chapter2 == chapter ? (verse2+1).to!string : "")
+								: ""));
+							
 			}
 
 			debug(15)
@@ -405,9 +407,9 @@ class Bible {
 								'\n', g_wrapWidth, null, null, 4);
 				break;
 				case false:
-					verses ~= verseOther ~ m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verseTitle ~
-								(inVerse ? " " : "-"~(verse2+1).to!string~" -> ") ~ m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verse ~
-								'\n';
+					verses ~= verseOther ~
+						(inVerse ? m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verseTitle~" " : " -> ") ~
+							m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verse ~ '\n';
 				break;
 			}
 			
