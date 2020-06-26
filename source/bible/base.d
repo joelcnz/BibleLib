@@ -1,5 +1,6 @@
 module bible.base;
 
+//#Bomb (ASV) ignoring the fact that it's a xml file
 //g_bible.argReference(g_bible.argReferenceToArgs(g_forChapter[index]))
 //#Hmm..
 //#at the moment it only works for 'god' or so
@@ -9,6 +10,8 @@ module bible.base;
 //#not sure about the seg bit
 //#makes SongOfSolomon
 //#old stuff
+
+//version = asvtrace;
 
 //version = ESV; // ESV Bible enabled
 //version = EndOfBlock;
@@ -32,7 +35,7 @@ import arsd.dom;
 //import ini.all;
 
 //public import blbible, blbook, blchapter, blverse, blmisc, blmisco;
-public import bible.bible, bible.book, bible.chapter, bible.verse, bible.misc; //, bible.info;
+public import bible.bible, bible.book, bible.chapter, bible.verse; //, bible.misc; //, bible.info;
 
 import jmisc;
 
@@ -68,21 +71,31 @@ struct Info {
 	}
 }
 
-void loadBible(in string ver) {
-	switch(ver) {
+void loadBible(in string ver, in string from) {
+	import std.path : buildPath;
+	import std.string : toUpper;
+
+	switch(ver.toUpper) {
 		default: writeln(ver, " Invalid input"); break;
-		case "esv":
+		/+
+		case "ESV":
 			g_info.bibleVersion = "English Standard Version";
 			writeln(g_info.bibleVersion);
 			loadXMLFile();
 			parseXMLDocument();
 		break;
-		case "kjv":
+		+/
+		case "ASV":
+			g_info.bibleVersion = "American Standard Version";
+			writeln(g_info.bibleVersion);
+			setupASV(readText(buildPath(from, "asv.xml")));
+		break;
+		case "KJV":
 			import bible.kjv;
 		
 			g_info.bibleVersion = "King James Version";
 			writeln(g_info.bibleVersion);
-			auto kjv = new jkBible(readText("kjvtext.txt"));
+			auto kjv = new jkBible(readText(buildPath(from, "kjvtext.txt")));
 			kjv.convertToJyble();
 		break;
 	}
@@ -197,11 +210,96 @@ string convertReferencesFromNotesFile(string raw) {
 	//return result;
 	return goTogether();
 }
-+/	
++/
+
+//#Bomb (ASV) ignoring the fact that it's a xml file
+void setupASV(in string data) {
+	import std.string : indexOf, split;
+    import std.file : readText;
+    //import dxml.parser;
+    import std.conv : to;
+
+    struct VerseData {
+        string id;
+        int b, c, v;
+        string t;
+    }
+    VerseData[] verses;
+
+	auto bookNames = ["Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth",
+		"1Samuel", "2Samuel", "1Kings", "2Kings", "1Chronicles", "2Chronicles", "Ezra", "Nehemiah", "Esther",
+		"Job","Psalms", "Proverbs", "Ecclesiastes", "SongofSolomon", "Isaiah", "Jeremiah", "Lamentations",
+		"Ezekiel", "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk",
+		"Zephaniah", "Haggai", "Zechariah", "Malachi", "Matthew", "Mark", "Luke", "John", "Acts", "Romans",
+		"1Corinthians", "2Corinthians", "Galatians", "Ephesians", "Philippians", "Colossians",
+		"1Thessalonians", "2Thessalonians", "1Timothy", "2Timothy", "Titus", "Philemon", "Hebrews", "James",
+		"1Peter", "2Peter", "1John", "2John", "3John", "Jude", "Revelation"];
+
+	import std.datetime.stopwatch;
+	StopWatch sw;
+	sw.start;
+
+	size_t i;
+    auto ls = data.split("\n");
+    i = 5;
+    while(true) {
+        VerseData ver;
+        auto line = ls[i];
+        //writeln(line);
+        immutable code = line[line.indexOf(`"id">`) + 5 .. line.indexOf(`"id">`) + 5 + 8];
+        //writeln("[", code, "]");
+        ver.id = code;
+        ver.b = code[0 .. 2].to!int;
+        ver.c = code[2 .. 2 + 3].to!int;
+        ver.v = code[2 + 3 .. 2 + 3 + 3].to!int;
+        i += 4;
+        line = ls[i];
+        //writeln("Ver line: [", line, "]");
+        ver.t = line[line.indexOf(`"t">`) + 4 .. $ - 8];
+        //writeln("Ver: [", ver, "]");
+		verses ~= ver;
+        if (ver.b == 66 && ver.c == 22 && ver.v == 21)
+            break;
+        i += 4;
+    }
+
+	g_bible = new Bible;
+
+	int b, c, v;
+	size_t j;
+	break0: do {
+		b = verses[j].b;
+		g_bible.m_books ~= new Book(bookNames[b-1]);
+		version(asvtrace)
+			mixin(trace("g_bible.m_books[$-1].m_bookTitle"));
+		do {
+			c = verses[j].c;
+			g_bible.m_books[$-1].m_chapters ~= new Chapter(c.to!string);
+			version(asvtrace)
+				mixin(trace("j g_bible.m_books[$-1].m_chapters[$-1].m_chapterTitle".split));
+			do {
+				v = verses[j].v;
+				g_bible.m_books[$-1].m_chapters[$-1].m_verses ~= new Verse(v.to!string);
+				g_bible.m_books[$-1].m_chapters[$-1].m_verses[$-1].verse = verses[j].t;
+				version(asvtrace)
+					mixin(trace(("j g_bible.m_books[$-1].m_chapters[$-1].m_verses[$-1].m_verseTitle" ~
+						" g_bible.m_books[$-1].m_chapters[$-1].m_verses[$-1].verse").split));
+				j += 1;
+				if (j == verses.length)
+					break break0;
+			} while(verses[j].v != 1);
+		} while(verses[j+1].c != 1);
+	} while(true);
+
+	writeln("Time: ", sw.peek().total!"msecs");
+}
 
 void loadXMLFile() {
 	writeln( "Loading xml file.." );
-    g_document = new Document(readText("esv.xml"));
+	immutable fileName = "esv.xml";
+	import std.file : exists;
+	assert(exists(fileName), "Not aloud to use the file specified..");
+    g_document = new Document(readText(fileName));
 }
 
 void parseXMLDocument() {
@@ -402,8 +500,8 @@ void resetVerseTags() {
 				verse.m_tagged = true;
 }
 
-enum WordSearchType {wholeWords, wordParts};
-	
+enum WordSearchType {wholeWords, wordParts}
+
 string wordSearch(string[] words, WordSearchType wordSearchType) {
 	import std.string, std.algorithm;
 	import std.conv: to;
@@ -429,7 +527,7 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 		foreach(i2, chapter; book.m_chapters) { // go through each chapter of the books
 			foreach(i3, ref verse; chapter.m_verses) { // go through each verse of the chapters
 				if (verse.m_tagged == false)
-					break;
+					continue;
 				bool canFindWords = true;
 				string ver;
 
@@ -500,9 +598,9 @@ string phraseSearch(string phrase) {
 	g_forChapter.length = 0;
 	foreach(bi, book; g_bible.m_books) {
 		foreach(ci, chapter; book.m_chapters) {
-			foreach(di, verse; chapter.m_verses) {
+			foreach(di, ref verse; chapter.m_verses) {
 				if (verse.m_tagged == false)
-					break;
+					continue;
 				auto ver = verse.verse;
 				if (! caseSensitive)
 					ver = ver.toLower;

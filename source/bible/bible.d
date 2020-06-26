@@ -1,17 +1,14 @@
 module bible.bible;
 
-//#not sure about this
+//#Rom 6 23 - 23 and Rom 6 23 - 6 23 and Rom 6 23 - Rom 6 23 => all display Rom 6:23-7:23
 //debug = 5;
 
 //#this would be good to use
 
-//#doesn't work with new lines
-//#not sure about this
 //g_bible.argReference(g_bible.argReferenceToArgs(g_forChapter[index]))
 //#hack!
 //#Need more work
 //#untested
-//#may brake program
 //#just split
 //#not work!
 //#error message
@@ -25,7 +22,6 @@ module bible.bible;
 //#eg 'Gen 1' -- get whole chapter
 //#clear the text file
 
-//version = DUnit; // dep
 //version = OldVersion; //#works with this too
 version = ModifyTitle; // '1John' to '1 John'
 
@@ -42,16 +38,16 @@ import jmisc;
 
 @safe:
 class Bible {
-	bool m_retValue;
+	int m_retValue;
 
 	Book[] m_books;
 	int _book, _chapter, _verse, _book2, _chapter2, _verse2; //#Need more work
 
-	enum ReferanceType {/* Joel 1 1: */ three, /* Joel 1 1 3: */ four, /* Joel 1 1 - 3: */ five, /* Joel 1 */ two, /* Joel 1 1 - 2 3: */ six, /* Joel 1 1 - Amos 1 3: */ seven}
+	enum ReferanceType {/* Joel 1 1: */ three, /* Joel 1 1 - 3: */ five, /* Joel 1 */ two, /* Joel 1 1 - 2 3: */ six, /* Joel 1 1 - Amos 1 3: */ seven}
 	//int chapter, chapters, 
 	enum NA = -1; // invalid book
 
-	bool retValue() { return m_retValue; } //#this would be good to use
+	int retValue() { return m_retValue; } //#this would be good to use
 
 	// -1 will be -2 and -2 -3
 	int parseNumber(in int max, int number) { //pure {
@@ -87,8 +83,8 @@ class Bible {
 	}
 
 	auto expVers(in string fileNameIn, in string fileNameOut, in string txtIn = "") {
-		import std.file: readText;
-		import std.string: indexOf, split, stripRight;
+		import std.file : readText;
+		import std.string : indexOf, split, stripRight;
 
 		string result;
 
@@ -112,10 +108,11 @@ class Bible {
 				eline = line.stripRight;
 			else
 				eline = line[0 .. cast(size_t)tend].stripRight;
-			string verses = argReference(eline.split, /* feed back */ true);
+			string verses = argReference(eline.split, /* feed back */ false);
 			if (verses != "")
 				//line = "|_" ~ line ~ " <> " ~ verses[0 .. (eline == "" ? 0 : $ - 1)];
-				line = line[(tend == -1 ? eline.length : tend) .. $] ~ " <> " ~ verses[0 .. (eline == "" ? 0 : $ - 1)];
+				line = line[(tend == -1 ? eline.length : tend) .. $] ~ " <> " ~
+					verses[0 .. (eline == "" ? 0 : $ - (verses[$ - 1] == '\n' ? 1 : 0))];
 
 			text ~= line;
 			if (i != lines.length - 1)
@@ -129,18 +126,31 @@ class Bible {
 		return result;
 	}
 
-	int bookNumberFromTitle(string bookTitle, bool feedBack = true) {
-		if (bookTitle[$ - 1].isDigit || bookTitle[0]== '-')
-			return bookTitle.to!int;
+	int bookNumberFromTitle(string bookTitle, bool feedBack = false) {
+		if (bookTitle[$ - 1].isDigit || bookTitle[0] == '-') {
+			int n;
+			try {
+				n = bookTitle.to!int;
+			} catch(Exception e) {
+				return NA;
+			}
+			return n;
+		}
 
 		int bookNumber = NA;
 		
 		import std.range;
 		if (bookTitle.length > 2 && bookTitle[0 .. 2] == "|_") /* then */ bookTitle = bookTitle.drop(2);
+		if (feedBack)
+			writeln("Book title: [", bookTitle, "]");
+		if (bookTitle.length < 3)
+			return NA;
 		
 		foreach(i, book; m_books)
 			if (book.m_bookTitle.length >= bookTitle.length
 				&& book.m_bookTitle[0 .. bookTitle.length].toLower == bookTitle.toLower) {
+				if (feedBack)
+					mixin(trace("book.m_bookTitle"));
 				bookNumber = cast(int)i + 1;
 				break;
 			}
@@ -157,30 +167,6 @@ class Bible {
 	}
 
 @trusted:
-	string[] getReference(string[] args) {
-		//import misc.base;
-		//1Joh 1 1 -> house
-		//to:
-		//1Joh 1 1
-		//1Joh 1 1 - -1 -- rocks
-		//to:
-		//1Joh 1 1 - -1
-		import std.string;
-		string[] newArgs;
-		string input = args.join(" ");
-		debug(5) mixin(trace("input"));
-		foreach_reverse(i, a; input) {
-			debug(5) mixin(trace("i", "a"));
-			if (std.ascii.isDigit(a)) {
-				newArgs = input[0 .. i + 1].split;
-				break;
-			}
-		}
-		debug(5) mixin(trace("newArgs"));
- 		
-		return newArgs;
-	}
-
 	///Psal 150 5 - Prov 1 2
 	//#just split
 	string[] argReferenceToArgs(string str) {
@@ -188,9 +174,7 @@ class Bible {
 	}
 
 	/// Enter verse ref (eg. 'Psal 32 1 - -1')
-	string argReference(string[] args, bool feedBack = true) {
-		//args = getReference(args); //#may brake program
-
+	string argReference(string[] args, bool feedBack = false) {
 		try {
 			if (feedBack)
 				debug(5) writeln("args: ", args);
@@ -229,20 +213,6 @@ class Bible {
 									 bookNumber - 1, chapterNumber - 1, verseNumber - 1, ReferanceType.three);
 			}
 
-			//#not sure about this
-			// Psal 32 1 -1
-			if (args.length == 4) {
-				bookNumber = bookNumberFromTitle(args[0], feedBack); // eg args[0] 'Genesis'
-				if (bookNumber == NA)
-					return "";
-				chapterNumber = args[1].to!int;
-				verseNumber = args[2].to!int;
-				verseNumber2 = args[3].to!int;
-
-				return getVerseRange(bookNumber - 1, chapterNumber - 1, verseNumber - 1,
-									 bookNumber - 1, chapterNumber - 1, verseNumber2 - 1, ReferanceType.four);
-			}
-			
 			// Psal 32 1 - -1 - main second
 			if (args.length == 5) {
 				bookNumber = bookNumberFromTitle(args[0], feedBack); // eg args[0] 'Genesis'
@@ -260,10 +230,12 @@ class Bible {
 			//   0   1 2 3 4  5
 			// Psal 32 1 - 2 -1 (Psalms 32:1-2:22)
 			if (args.length == 6) {
-				37.gh;
+				if (feedBack)
+					37.gh;
 				bookNumber = bookNumberFromTitle(args[0], feedBack); // eg 1 args[0] 'Genesis'
 				if (bookNumber == NA)
-					return "book number NA";
+					return "";
+					//return args.join(" ");
 				chapterNumber = args[1].to!int;
 				verseNumber = args[2].to!int;
 				chapterNumber2 = args[4].to!int;
@@ -308,10 +280,6 @@ class Bible {
 	}
 	
 @safe:
-	string getReference(int bookNum, int chapterNum = 0, int verseNum = 0) {
-		return "";
-	}
-
 	Book getBook(int bookNum) {
 		//m_books[bookNumber - 1].m_chapters[chapterNumber - 1].m_verses.length + 1
 
@@ -326,6 +294,7 @@ class Bible {
 			return 0;
 	}
 
+	//#Rom 6 23 - 23 and Rom 6 23 - 6 23 and Rom 6 23 - Rom 6 23 => all display Rom 6:23-7:23
 	string getVerseRange(int book, int chapter, int verse, int book2, int chapter2, int verse2, ReferanceType reft) {
 		debug(6) writeln(q{string getVerseRange(int book, int chapter, int verse, int book2, int chapter2, int verse2): } ~ ` \/`);
 		debug(6) writefln("book %s, chapter %s, verse %s, book2 %s, chapter2 %s, verse2 %s", book, chapter, verse, book2, chapter2, verse2);
@@ -361,7 +330,7 @@ class Bible {
 			book + 1, chapter + 1, verse + 1, book2 + 1, chapter2 + 1, verse2 + 1);
 
 		g_info.book = m_books[book].m_bookTitle;
-		g_info.chapter = chapter;
+		g_info.chapter = chapter + 1;
 		g_info.verse = verse + 1;
 		g_info.verseCount = cast(int)m_books[book].m_chapters[chapter].m_verses.length;
 		g_info.chapterCount = cast(int)m_books[book].m_chapters.length;
@@ -401,7 +370,7 @@ class Bible {
 
 			final switch(g_wrap) {
 				case true:
-					//#doesn't work with new lines
+					//doesn't work with new lines
 					verses ~= wrap(verseOther ~ m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verseTitle ~
 								(inVerse ? " " : " -> ") ~ m_books[cbook].m_chapters[cchapter].m_verses[cverse].m_verse ~
 								'\n', g_wrapWidth, null, null, 4);
@@ -425,11 +394,6 @@ class Bible {
 					cchapter = 0;
 					cbook++;
 					inBook = false;
-					//#not sure about this
-					if (cbook == 67) {
-						debug writeln("Error!");
-						break;
-					}
 				}
 				inVerse = false;
 			} // if (cverse
@@ -455,38 +419,73 @@ class Bible {
 		_verse = verse + 1;
 		_verse2 = verse2 + 1;
 
-/+
-			result = text(	"Book: ", book, "\n",
-							"Chapter: ", chapter, "\n",
-							"Total chapters: ", chapterCount, "\n",
-							"Total current chapter verses: ", verseCount,"\n",
-							'-'.repeat(3), "\n");
-+/
-		g_info.chapter = _chapter;
-		//g_info.
 		return verses;
 	}
 }
 
-@system:
-unittest {
-	//BibleVersion = "English Standard Version";
-	loadXMLFile();
-	parseXMLDocument();
-	
-	writeln(g_bible.argReference("Joel 3 21".split)[$ - 7 .. $ - 2]);
+immutable loadBibleString = `	import std.path : buildPath;
 
-	assert(g_bible.argReference("Joel 3 21".split)[$ - 7 .. $ - 2] == "Zion.");
-	writeln("Joel 3 1 - -1");
-	assert(g_bible.argReference("Joel 3 1 - -1".split)[$ - 7 .. $ - 2] == "Zion.");
-	assert(g_bible.argReference("Joel 3".split)[$ - 7 .. $ - 2] == "Zion.");
-	assert(g_bible.argReference("Joel -1".split)[$ - 7 .. $ - 2] == "Zion.");
-	assert(g_bible.argReference("29 -1".split)[$ - 7 .. $ - 2] == "Zion.");
-	//assert(g_bible.argReference("Rom 8 28 - 29".split) == );
+	immutable BIBLE_VER = "asv"; //"kjv"; //"asv";
+	loadBible(BIBLE_VER, buildPath("..", "BibleLib", "Versions"));
+`;
+
+auto getEnd(string sample, int count) {
+	return sample[$ - (1 + count) .. $ - 1];
+}
+
+@system:
+@("References1")
+unittest {
+	mixin(loadBibleString);
+
+	writeln(getEnd(g_bible.argReference("Joel 3 21".split), 5));
+	assert(getEnd(g_bible.argReference("Joel 3 21".split), 5) == "Zion.");
+}
+
+@("References2")
+unittest {
+	mixin(loadBibleString);
+
+	writeln("Joel 3 1 - -1\n", g_bible.argReference("Joel 3 1 - -1".split)[$ - 6 .. $]);
+	assert(g_bible.argReference("Joel 3 1 - -1".split)[$ - 6 .. $ - 1] == "Zion.");
+}
+
+@("References3")
+unittest {
+	mixin(loadBibleString);
+	assert(g_bible.argReference("Joel 3".split)[$ - 6 .. $ - 1] == "Zion.");
+}
+
+@("References4")
+unittest {
+	mixin(loadBibleString);
+	assert(g_bible.argReference("Joel -1".split)[$ - 6 .. $ - 1] == "Zion.");
+}
+
+@("References5")
+unittest {
+	mixin(loadBibleString);
+	writeln([g_bible.argReference("29 -1".split)[$ - 6 .. $ - 1]]);
+	assert(g_bible.argReference("29 -1".split)[$ - 6 .. $ - 1] == "Zion.", "Surposed to be `Zion.`");
+}
+
+@("References6")
+unittest {
+	mixin(loadBibleString);
 	writeln('>', g_bible.argReference("Joel -1 -2 - 30 -1 2".split), '<');
 	debug(6)
 		writeln('>', g_bible.argReference("Joel 1 -2 - 2 2".split), '<');
-	//assert(g_bible.argReference("Joel 1 1 - -1 21".split)[$ - 7 .. $ - 2] == "Zion."); // fails
-	//assert(g_bible.argReference("Joel 1 1 - -1 -1".split)[$ - 7 .. $ - 2] == "Zion."); // fails
-	//assert(g_bible.argReference("Joel 1 1 - Joel -1 -1".split)[$ - 7 .. $ - 2] == "Zion."); // fails
+	assert(getEnd(g_bible.argReference("Joel 1 1 - -1 21".split), 7) == "things.");
+}
+
+@("References7")
+unittest {
+	mixin(loadBibleString);
+	assert(getEnd(g_bible.argReference("Joel 1 1 - -1 -1".split), 7) == "things.");
+}
+
+@("References8")
+unittest {
+	mixin(loadBibleString);
+	assert(g_bible.argReference("Joel 1 1 - Joel -1 -1".split).getEnd(7) == "things.");
 }
