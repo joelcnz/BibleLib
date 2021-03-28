@@ -566,9 +566,9 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 					if (doit) {
 						count += 1;
 						//mixin(trace("word"));
-						result ~= format("%s) %s %s:%s -> %s\n",
-								 	   count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
-						g_forChapter ~= format("%s %s", book.m_bookTitle, chapter.m_chapterTitle);
+						result ~= format!"%s) %s %s:%s -> %s\n"
+								 	   (count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
+						g_forChapter ~= format!"%s %s"(book.m_bookTitle, chapter.m_chapterTitle);
 					} else {
 						verse.m_tagged = false;
 					}
@@ -578,7 +578,7 @@ string wordSearch(string[] words, WordSearchType wordSearchType) {
 			}
 		}
 	}
-	hits = format("Hits: %s\n", count);
+	hits = format!"Hits: %s\n"(count);
 
 	return info ~ hits ~ result ~ info ~ hits;
 }
@@ -607,15 +607,15 @@ string phraseSearch(string phrase) {
 				if ((caseSensitive && ver.canFind(phrase)) ||
 					(! caseSensitive && ver.canFind(phrase.toLower))) {
 					count += 1;
-					result ~= format("%s) %s %s:%s -> %s\n",
-						count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
-					g_forChapter ~= format("%s %s", book.m_bookTitle, chapter.m_chapterTitle);
+					result ~= format!"%s) %s %s:%s -> %s\n"
+						(count, book.m_bookTitle, chapter.m_chapterTitle, verse.m_verseTitle, verse.verse);
+					g_forChapter ~= format!"%s %s"(book.m_bookTitle, chapter.m_chapterTitle);
 				} else
 					verse.m_tagged = false;
 			}
 		}
 	}
-	auto info = format("Phrase: '%s'\nHits: %s\n", phrase, count);
+	auto info = format!"Phrase: '%s'\nHits: %s\n"(phrase, count);
 	result = info ~ '\n' ~ result ~ info;
 
 	return result;
@@ -628,7 +628,7 @@ string getBibleText() {
 		result ~= "\n" ~ text(book.m_bookTitle, "\n");
 		foreach(i2, chapter; book.m_chapters) {
 			foreach(i3, verse; chapter.m_verses) {
-				result ~= format("chapter %s:%s %s\n", i2, i3, verse.verse);
+				result ~= format!"chapter %s:%s %s\n"(i2, i3, verse.verse);
 			}
 		}
 	}
@@ -653,7 +653,7 @@ void printWholeBible() {
 						block ~= stripAndpack(verse.verse);
 
 					version(Normal) {
-						writefln("verse %s %s", i3, verse.verse);
+						writefln!"verse %s %s"(i3, verse.verse);
 					}
 
 					//writeln(stripAndpack(verse.verse));

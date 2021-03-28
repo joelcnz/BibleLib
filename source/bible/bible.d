@@ -150,7 +150,7 @@ class Bible {
 			if (book.m_bookTitle.length >= bookTitle.length
 				&& book.m_bookTitle[0 .. bookTitle.length].toLower == bookTitle.toLower) {
 				if (feedBack)
-					mixin(trace("book.m_bookTitle"));
+					mixin(tce("book.m_bookTitle"));
 				bookNumber = cast(int)i + 1;
 				break;
 			}
