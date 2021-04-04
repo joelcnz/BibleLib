@@ -76,7 +76,15 @@ void loadBible(in string ver, in string from) {
 	import std.string : toUpper;
 
 	switch(ver.toUpper) {
-		default: writeln(ver, " Invalid input"); break;
+		default: writeln(ver, " unrecognised Bible version"); break;
+		case "KJV":
+			import bible.kjv;
+		
+			g_info.bibleVersion = "King James Version";
+			writeln(g_info.bibleVersion);
+			auto kjv = new jkBible(readText(buildPath(from, "kjvtext.txt")));
+			kjv.convertToJyble();
+		break;
 		/+
 		case "ESV":
 			g_info.bibleVersion = "English Standard Version";
@@ -90,14 +98,6 @@ void loadBible(in string ver, in string from) {
 			writeln(g_info.bibleVersion);
 			setupASV(readText(buildPath(from, "asv.xml")));
 		break;
-		case "KJV":
-			import bible.kjv;
-		
-			g_info.bibleVersion = "King James Version";
-			writeln(g_info.bibleVersion);
-			auto kjv = new jkBible(readText(buildPath(from, "kjvtext.txt")));
-			kjv.convertToJyble();
-		break;
 	}
 }
 
@@ -110,13 +110,15 @@ void loadCrossRefs(in string fileName = "cross_references.txt") {
 	import std.algorithm : canFind;
 	
 	string[] vers, verRefs;
+	immutable CONTENCE_LINE = 1;
 	foreach(i, line; File(fileName, "r").byLine.enumerate(0)) {
-		if (i > 0) {
+		if (CONTENCE_LINE != i) {
 			auto s = line.split;
 			auto ver = s[0];
 			auto vref = s[1];
-			ver = ver.replace(".", " ");
-			vref = vref.replace(".", " ");
+
+			[&ver,&vref].each!((ref v) => (*v) = (*v).replace(".", " "));
+
 			if (vref.canFind("-")) {
 				auto end = vref[vref.indexOf('-') + 1 .. $];
 				end = end[end.indexOf(" ") + 1..$];
@@ -124,7 +126,7 @@ void loadCrossRefs(in string fileName = "cross_references.txt") {
 			}
 			vers ~= ver.idup;
 			verRefs ~= vref.idup;
-		} // if i > 0
+		} // if CONTENCE_LINE not equal to i
 		i += 1;
 	}
 
