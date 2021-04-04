@@ -110,9 +110,9 @@ void loadCrossRefs(in string fileName = "cross_references.txt") {
 	import std.algorithm : canFind;
 	
 	string[] vers, verRefs;
-	immutable CONTENCE_LINE = 1;
+	immutable TAB_LABELS_LINE = 1;
 	foreach(i, line; File(fileName, "r").byLine.enumerate(0)) {
-		if (CONTENCE_LINE != i) {
+		if (TAB_LABELS_LINE != i) {
 			auto s = line.split;
 			auto ver = s[0];
 			auto vref = s[1];
@@ -126,7 +126,7 @@ void loadCrossRefs(in string fileName = "cross_references.txt") {
 			}
 			vers ~= ver.idup;
 			verRefs ~= vref.idup;
-		} // if CONTENCE_LINE not equal to i
+		} // if TAB_LABELS_LINE not equal to i
 		i += 1;
 	}
 
