@@ -101,6 +101,37 @@ void loadBible(in string ver, in string from) {
 	}
 }
 
+string[] bl_vers, bl_verRefs;
+
+void loadCrossRefs(in string fileName = "cross_references.txt") {
+	import std.stdio : File;
+	import std.range : enumerate;
+	import std.string : split, indexOf, replace;
+	import std.algorithm : canFind;
+	
+	string[] vers, verRefs;
+	foreach(i, line; File(fileName, "r").byLine.enumerate(0)) {
+		if (i > 0) {
+			auto s = line.split;
+			auto ver = s[0];
+			auto vref = s[1];
+			ver = ver.replace(".", " ");
+			vref = vref.replace(".", " ");
+			if (vref.canFind("-")) {
+				auto end = vref[vref.indexOf('-') + 1 .. $];
+				end = end[end.indexOf(" ") + 1..$];
+				vref = vref[0.. vref.indexOf("-")] ~ " - " ~ end;
+			}
+			vers ~= ver.idup;
+			verRefs ~= vref.idup;
+		} // if i > 0
+		i += 1;
+	}
+
+	bl_vers = vers;
+	bl_verRefs = verRefs;
+}
+
 // Like '2 John ..' -> '2John ..'
 string fixMultiBooks(string raw) {
 	for(int i; i<raw.length; i++) {
