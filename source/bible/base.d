@@ -103,7 +103,7 @@ void loadBible(in string ver, in string from) {
 
 string[] bl_vers, bl_verRefs;
 
-void loadCrossRefs(in string fileName = "cross_references.txt") {
+void loadCrossRefs(in string fileName = "../BibleLib/CrossRefs/cross_references.txt") {
 	import std.stdio : File;
 	import std.range : enumerate;
 	import std.string : split, indexOf, replace;
@@ -121,9 +121,10 @@ void loadCrossRefs(in string fileName = "cross_references.txt") {
 
 			if (vref.canFind("-")) {
 				auto end = vref[vref.indexOf('-') + 1 .. $];
-				end = end[end.indexOf(" ") + 1..$];
-				vref = vref[0.. vref.indexOf("-")] ~ " - " ~ end;
+				end = end[end.lastIndexOf(" ")+1..$];
+				vref = vref[0..vref.indexOf("-")] ~ " - " ~ end;
 			}
+
 			vers ~= ver.idup;
 			verRefs ~= vref.idup;
 		} // if TAB_LABELS_LINE not equal to i
